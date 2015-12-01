@@ -1,0 +1,32 @@
+.container{
+    background-color:blue;
+    height:1550px;
+    width:1423px;
+}
+.jumboSlide{
+    background-color:yellow;
+    height:485px;
+    width:1423px;
+}
+.nav-bar-menu{
+    background-color:green;
+    height:70px;
+    width:1423px;
+}
+.search-drop-down{
+    background-color:red;
+    height:35px;
+    width:270px;
+    margin-left:50px;
+    top:100px;
+}
+.pic-title{
+    background-color:pink;
+    height:60px;
+    width:350px;
+}
+.pic-gallery{
+    background-color:orange;
+    height:875px;
+    width:1400px;
+}
