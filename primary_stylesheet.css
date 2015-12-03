@@ -8,6 +8,15 @@ body {
 #header{
     font-family: impact;
 }
+#nav{
+    background-color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.NavLink{
+    color: white;
+}
 #siteTitle{
     border-radius: 10px;
     background-color: white;
@@ -24,7 +33,7 @@ body {
     margin-right: auto;
     width: 250px;
 }
-#container{
+#content{
     background-color: white;
     text-align: center;
     margin-left: auto;
