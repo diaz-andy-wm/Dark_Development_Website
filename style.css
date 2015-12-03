@@ -1,6 +1,6 @@
 .container{
     background-color:blue;
-    height:1550px;
+    height:2050px;
     width:1423px;
 }
 .jumboSlide{
@@ -10,23 +10,123 @@
 }
 .nav-bar-menu{
     background-color:green;
-    height:70px;
+    height:80px;
     width:1423px;
+    position:absolute;
+    top:20px;
 }
 .search-drop-down{
     background-color:red;
     height:35px;
     width:270px;
-    margin-left:50px;
-    top:100px;
+    margin-left:35px;
+    position:absolute;
+    top:35px;
+}
+.search-menu{
+    background-color:pink;
+    width:1000px;
+    height:35px;
+    margin-left:400px;
+    top:35px;
+    position:absolute;
+
 }
 .pic-title{
-    background-color:pink;
-    height:60px;
-    width:350px;
+    background-color:purple;
+    height:100px;
+    width:1050px;
+    z-index: 5;
 }
 .pic-gallery{
     background-color:orange;
-    height:875px;
+    height:1375px;
     width:1400px;
+    margin-left:10px;
+    z-index: 1;
+
+}
+.pic-1{
+    background-color: #60d486;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:90px;
+    margin-top:120px;
+
+
+}
+.pic-2{
+    background-color: #acff00;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:550px;
+    margin-top:120px;
+
+
+}
+.pic-3{
+    background-color: #65b982;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:1010px;
+    margin-top:120px;
+
+
+}
+.pic-4{
+    background-color: #67fab1;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:90px;
+    margin-top: 525px;
+
+}
+.pic-5{
+    background-color: #bcb9bc;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left: 550px;
+    margin-top:525px;
+
+
+}
+.pic-6{
+    background-color: rgba(119, 252, 111, 0.99);
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:1010px;
+    margin-top: 525px;
+}
+.pic-7{
+    background-color: #004d1b;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:90px;
+    margin-top: 940px;
+
+}
+.pic-8{
+    background-color: #36eb92;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:550px;
+    margin-top:940px;
+
+}
+.pic-9{
+    background-color: #66b100;
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    margin-left:1010px;
+    margin-top: 940px;
+
 }
