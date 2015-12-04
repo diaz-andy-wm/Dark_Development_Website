@@ -34,11 +34,12 @@ body {
     width: 250px;
 }
 #content{
-    background-color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+}
+#infoPic {
+    float: left;
 }
 #footer{
     border-radius: 25px;
