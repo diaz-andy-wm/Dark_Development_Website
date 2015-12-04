@@ -38,6 +38,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+#loginSquare{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+}
 #infoPic {
     float: left;
 }
