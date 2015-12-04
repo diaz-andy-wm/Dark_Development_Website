@@ -1,17 +1,19 @@
+
 .container{
-    background-color:blue;
+    background-color:#f0f0f0;
     height:2050px;
     width:1423px;
+    margin-left:-8px;
 }
 .jumboSlide{
-    background-color:yellow;
     height:485px;
-    width:1423px;
+    width:1425px;
 }
+
 .nav-bar-menu{
-    background-color:green;
+    background-color: rgba(0,0,0,0.6) ;
     height:80px;
-    width:1423px;
+    width:1424px;
     position:absolute;
     top:20px;
 }
@@ -24,7 +26,7 @@
     top:35px;
 }
 .search-menu{
-    background-color:pink;
+    background-color:transparent;
     width:1000px;
     height:35px;
     margin-left:400px;
@@ -32,14 +34,20 @@
     position:absolute;
 
 }
-.pic-title{
-    background-color:purple;
+.filler{
     height:100px;
     width:1050px;
-    z-index: 5;
+    z-index: 9; position:absolute;
+}
+/*START OF GALLERY*/
+.pic-title{
+    background-color:purple;
+    height:90px;
+    width:1000px;
+    margin-left:210px;
 }
 .pic-gallery{
-    background-color:orange;
+    background-color:#B64642;
     height:1375px;
     width:1400px;
     margin-left:10px;
@@ -47,86 +55,217 @@
 
 }
 .pic-1{
-    background-color: #60d486;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 360px;
+    width: 360px;
     position:absolute;
-    margin-left:90px;
+    margin-left:53px;
     margin-top:120px;
 
 
 }
 .pic-2{
-    background-color: #acff00;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left:550px;
+    margin-left:505px;
     margin-top:120px;
 
 
 }
 .pic-3{
-    background-color: #65b982;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left:1010px;
+    margin-left:973px;
     margin-top:120px;
 
 
 }
 .pic-4{
-    background-color: #67fab1;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left:90px;
+    margin-left:53px;
     margin-top: 525px;
 
 }
 .pic-5{
-    background-color: #bcb9bc;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left: 550px;
+    margin-left: 505px;
     margin-top:525px;
 
 
 }
 .pic-6{
-    background-color: rgba(119, 252, 111, 0.99);
-    height: 300px;
-    width: 300px;
+    background-color:#f8f8f8;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left:1010px;
+    margin-left:973px;
     margin-top: 525px;
 }
 .pic-7{
-    background-color: #004d1b;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left:90px;
+    margin-left:53px;
     margin-top: 940px;
 
 }
 .pic-8{
-    background-color: #36eb92;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left:550px;
+    margin-left:505px;
     margin-top:940px;
 
 }
 .pic-9{
-    background-color: #66b100;
-    height: 300px;
-    width: 300px;
+    background-color: #f0f0f0;
+    height: 375px;
+    width: 375px;
     position:absolute;
-    margin-left:1010px;
+    margin-left:973px;
     margin-top: 940px;
 
 }
+/*END OF GALLERY*/
+
+/*THIS IS ALL THE SLIDESHOW CSS*/
+#slider {
+    background: #000;
+    border: 5px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    height: 474px;
+    width: 1423px;
+    margin: 20px 10px 10px 0;
+    overflow: visible;
+    position: relative;
+
+}
+#mask {
+    overflow: hidden;
+    height: 320px;
+}
+#slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#slider li {
+    height: 500px;/* Width Image */
+    width: 1423px; /* Height Image */
+    position: absolute;
+    top: -325px; /* Original Position - Outside of the Slider */
+    list-style: none;
+}
+.s-pic1{
+    width:100%;
+    height:100%;
+
+}
+.s-pic3{
+    width:100%;
+    height:100%;
+
+}
+.s-pic3{
+    width:100%;
+    height:100%;
+
+}
+.s-pic4{
+    width:100%;
+    height:100%;
+
+}
+.s-pic5{
+    width:100%;
+    height:100%;
+}
+#slider li.firstanimation {
+    animation: cycle 25s linear infinite;
+
+}
+
+#slider li.secondanimation {
+    animation: cycletwo 25s linear infinite;
+
+}
+
+#slider li.thirdanimation {
+    animation: cyclethree 25s linear infinite;
+
+}
+
+#slider li.fourthanimation {
+    animation: cyclefour 25s linear infinite;
+
+}
+
+#slider li.fifthanimation {
+    animation: cyclefive 25s linear infinite;
+
+}
+@keyframes cycle {
+    0%  { top: 0px; }
+    4%  { top: 0px; }
+    16% { top: 0px; opacity:1; z-index:0; }
+    20% { top: 325px; opacity: 0; z-index: 0; }
+    21% { top: -325px; opacity: 0; z-index: -1; }
+    92% { top: -325px; opacity: 0; z-index: 0; }
+    96% { top: -325px; opacity: 0; }
+    100%{ top: 0px; opacity: 1; }
+}
+
+@keyframes cycletwo {
+    0%  { top: -325px; opacity: 0; }
+    16% { top: -325px; opacity: 0; }
+    20% { top: 0px; opacity: 1; }
+    24% { top: 0px; opacity: 1; }
+    36% { top: 0px; opacity: 1; z-index: 0; }
+    40% { top: 325px; opacity: 0; z-index: 0; }
+    41% { top: -325px; opacity: 0; z-index: -1; }
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclethree {
+    0%  { top: -325px; opacity: 0; }
+    36% { top: -325px; opacity: 0; }
+    40% { top: 0px; opacity: 1; }
+    44% { top: 0px; opacity: 1; }
+    56% { top: 0px; opacity: 1; }
+    60% { top: 325px; opacity: 0; z-index: 0; }
+    61% { top: -325px; opacity: 0; z-index: -1; }
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclefour {
+    0%  { top: -325px; opacity: 0; }
+    56% { top: -325px; opacity: 0; }
+    60% { top: 0px; opacity: 1; }
+    64% { top: 0px; opacity: 1; }
+    76% { top: 0px; opacity: 1; z-index: 0; }
+    80% { top: 325px; opacity: 0; z-index: 0; }
+    81% { top: -325px; opacity: 0; z-index: -1; }
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+}
+@keyframes cyclefive {
+    0%  { top: -325px; opacity: 0; }
+    76% { top: -325px; opacity: 0; }
+    80% { top: 0px; opacity: 1; }
+    84% { top: 0px; opacity: 1; }
+    96% { top: 0px; opacity: 1; z-index: 0; }
+    100%{ top: 325px; opacity: 0; z-index: 0; }
+}
+/*THIS IS ALL THE SLIDESHOW CSS(END)*/
