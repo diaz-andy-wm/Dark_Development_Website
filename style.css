@@ -3,7 +3,7 @@
     background-color:#f0f0f0;
     height:2050px;
     width:1423px;
-    margin-left:-8px;
+    margin-left:-3px;
 }
 .jumboSlide{
     height:485px;
@@ -26,7 +26,6 @@
     top:35px;
 }
 .search-menu{
-    background-color:transparent;
     width:1000px;
     height:35px;
     margin-left:400px;
@@ -34,6 +33,41 @@
     position:absolute;
 
 }
+
+/*Nav bar menu (start)*/
+
+.search-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.search-menu li{
+    float: left;
+}
+
+.search-menu li a{
+    display: block;
+    font-size:20px;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:17px;
+    text-decoration: none;
+}
+
+.search-menu li a:hover{
+    background-color: #111;
+}
+
+
+/*Nav bar menu (end)*/
+
+
 .filler{
     height:100px;
     width:1050px;
@@ -147,14 +181,14 @@
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
     height: 474px;
     width: 1423px;
-    margin: 20px 10px 10px 0;
+    margin: 0 10px 10px 0;
     overflow: visible;
     position: relative;
 
 }
 #mask {
     overflow: hidden;
-    height: 320px;
+    height: 478px;
 }
 #slider ul {
     margin: 0;
@@ -166,7 +200,7 @@
     height: 500px;/* Width Image */
     width: 1423px; /* Height Image */
     position: absolute;
-    top: -325px; /* Original Position - Outside of the Slider */
+    top: -425px; /* Original Position - Outside of the Slider */
     list-style: none;
 }
 .s-pic1{
@@ -218,22 +252,22 @@
 
 }
 @keyframes cycle {
-    0%  { top: 0px; }
-    4%  { top: 0px; }
-    16% { top: 0px; opacity:1; z-index:0; }
+    0%  { top: 0; }
+    4%  { top: 0; }
+    16% { top: 0; opacity:1; z-index:0; }
     20% { top: 325px; opacity: 0; z-index: 0; }
     21% { top: -325px; opacity: 0; z-index: -1; }
     92% { top: -325px; opacity: 0; z-index: 0; }
     96% { top: -325px; opacity: 0; }
-    100%{ top: 0px; opacity: 1; }
+    100%{ top: 0; opacity: 1; }
 }
 
 @keyframes cycletwo {
     0%  { top: -325px; opacity: 0; }
     16% { top: -325px; opacity: 0; }
-    20% { top: 0px; opacity: 1; }
-    24% { top: 0px; opacity: 1; }
-    36% { top: 0px; opacity: 1; z-index: 0; }
+    20% { top: 0; opacity: 1; }
+    24% { top: 0; opacity: 1; }
+    36% { top: 0; opacity: 1; z-index: 0; }
     40% { top: 325px; opacity: 0; z-index: 0; }
     41% { top: -325px; opacity: 0; z-index: -1; }
     100%{ top: -325px; opacity: 0; z-index: -1; }
@@ -242,9 +276,9 @@
 @keyframes cyclethree {
     0%  { top: -325px; opacity: 0; }
     36% { top: -325px; opacity: 0; }
-    40% { top: 0px; opacity: 1; }
-    44% { top: 0px; opacity: 1; }
-    56% { top: 0px; opacity: 1; }
+    40% { top: 0; opacity: 1; }
+    44% { top: 0; opacity: 1; }
+    56% { top: 0; opacity: 1; }
     60% { top: 325px; opacity: 0; z-index: 0; }
     61% { top: -325px; opacity: 0; z-index: -1; }
     100%{ top: -325px; opacity: 0; z-index: -1; }
@@ -253,8 +287,8 @@
 @keyframes cyclefour {
     0%  { top: -325px; opacity: 0; }
     56% { top: -325px; opacity: 0; }
-    60% { top: 0px; opacity: 1; }
-    64% { top: 0px; opacity: 1; }
+    60% { top: 0; opacity: 1; }
+    64% { top: 0; opacity: 1; }
     76% { top: 0px; opacity: 1; z-index: 0; }
     80% { top: 325px; opacity: 0; z-index: 0; }
     81% { top: -325px; opacity: 0; z-index: -1; }
@@ -263,9 +297,9 @@
 @keyframes cyclefive {
     0%  { top: -325px; opacity: 0; }
     76% { top: -325px; opacity: 0; }
-    80% { top: 0px; opacity: 1; }
-    84% { top: 0px; opacity: 1; }
-    96% { top: 0px; opacity: 1; z-index: 0; }
+    80% { top: 0; opacity: 1; }
+    84% { top: 0; opacity: 1; }
+    96% { top: 0; opacity: 1; z-index: 0; }
     100%{ top: 325px; opacity: 0; z-index: 0; }
 }
 /*THIS IS ALL THE SLIDESHOW CSS(END)*/
