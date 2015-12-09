@@ -45,6 +45,18 @@ body {
     width: 200px;
     border-radius: 5px;
 }
+#searchResults{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: white;
+}
+#filterList{
+    text-align: left;
+}
+#resultsList{
+    text-align: left;
+}
 #infoPic {
     float: left;
 }
