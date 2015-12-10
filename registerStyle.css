@@ -171,14 +171,27 @@ footer,
     line-height: 120px;
 }
 
+.logo{
+    align-items: center;
+    margin-top: 4%;
+    float: left;
+}
+
+.logo img{
+    width:60px;
+    height: 50px;
+
+}
+
+
 .links{
-    float: right;
-    width: 50%;
+    margin-top: 5%;
+    float: left;
+    width: 40%;
 }
 
 .links a{
     float: right;
-    line-height: 120px;
     padding-left: 3%;
     padding-right: 7%;
     color: #000;
