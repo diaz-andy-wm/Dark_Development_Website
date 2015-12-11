@@ -3,7 +3,7 @@
 /*  #  ---------  Andy Diaz  --------  #  */
 
 body {
-    background-color: darkred;
+    background: url("pics/background.png");
 }
 #header{
     font-family: impact;
