@@ -9,6 +9,9 @@ body {
     font-family: impact;
 }
 #nav{
+    font-family: impact;
+}
+#navbar{
     background-color: black;
     text-align: center;
     margin-left: auto;
@@ -16,6 +19,22 @@ body {
 }
 .NavLink{
     color: white;
+}
+#cartStuff{
+    border-radius: 10px;
+    background-color: white;
+    width: 180px;
+    margin-left: auto;
+    float: right;
+    text-align: center;
+}
+#profileID{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin-right: auto;
+    width: 180px;
 }
 #siteTitle{
     border-radius: 10px;
@@ -53,12 +72,21 @@ body {
 }
 #filterList{
     text-align: left;
+    background-color: darkred;
+    color: white;
 }
 #resultsList{
     text-align: left;
 }
 #infoPic {
     float: left;
+}
+#profileInfo{
+    border-radius: 25px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
 #footer{
     border-radius: 25px;
