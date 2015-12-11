@@ -7,26 +7,28 @@
 
 }
 .label{
+    color:white;
     background-color: #f0f0f0;
     height: 80px;
     width: 400px;
     position: absolute;
     margin-left:300px;
     margin-top:10px;
-    background-image:url("");
+    background-image:url("https://s-media-cache-ak0.pinimg.com/736x/af/a3/2a/afa32aa9f15a945c7293c0ea47014c24.jpg");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 }
 .pic-1{
+    color:white;
     background-color: #f0f0f0;
     height: 200px;
     width: 200px;
     position: absolute;
     margin-left:170px;
     margin-top:120px;
-    background-image:url("");
+    background-image:url("http://www.hungryforchange.tv/images/happypeople.jpg");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -34,13 +36,14 @@
 }
 
 .pic-2{
+    color:white;
     background-color: #f0f0f0;
     height: 200px;
     width: 200px;
     position:absolute;
     margin-left:400px;
     margin-top:120px;
-    background-image:url("");
+    background-image:url("http://s3.favim.com/orig/47/black-and-white-city-grey-lights-night-Favim.com-432734.jpg");
     background-position: right;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -54,7 +57,7 @@
     position:absolute;
     margin-left:630px;
     margin-top:120px;
-    background-image:url("");
+    background-image:url("http://images.medicaldaily.com/sites/medicaldaily.com/files/styles/full_breakpoints_theme_medicaldaily_desktop_1x/public/2015/07/05/nature.jpg");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -68,20 +71,21 @@
     position:absolute;
     margin-left:170px;
     margin-top: 350px;
-    background-image:url("");
+    background-image:url("http://www.firstactchildrenstheatre.com/uploads/1/3/8/3/13835241/33748.jpg?403");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 }
 .pic-5{
+    color:white;
     background-color: #f0f0f0;
     height: 200px;
     width: 200px;
     position:absolute;
     margin-left:400px;
     margin-top: 350px;
-    background-image:url("");
+    background-image:url("http://southfront.org/wp-content/uploads/2015/10/fist-fight-shutterstock-crop.jpg");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -95,7 +99,7 @@
     position:absolute;
     margin-left:630px;
     margin-top: 350px;
-    background-image:url("");
+    background-image:url("http://cdn-ugc.cafemom.com/gen/constrain/500/500/80/2014/09/12/13/2c/a1/podstparfo.jpg");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -107,7 +111,7 @@
     position:absolute;
     margin-left:170px;
     margin-top:580px;
-    background-image:url("");
+    background-image:url("http://s9.favim.com/orig/130827/art-birds-blue-camera-Favim.com-882419.jpg");
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid #000;
@@ -115,13 +119,14 @@
 
 }
 .pic-8{
+    color:white;
     background-color: #f0f0f0;
     height: 200px;
     width: 200px;
     position:absolute;
     margin-left:400px;
     margin-top:580px;
-    background-image:url("");
+    background-image:url("http://accesslocal.tv/wp-content/uploads/2012/01/film-crew-silhouette1.jpg");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -134,7 +139,7 @@
     position:absolute;
     margin-left:630px;
     margin-top:580px;
-    background-image:url("");
+    background-image:url("http://images.all-free-download.com/images/graphiclarge/red_up_arrow_106.jpg");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
