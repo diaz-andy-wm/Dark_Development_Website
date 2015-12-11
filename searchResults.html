@@ -7,9 +7,9 @@
     <!-- #  Credit for the Construction of  # -->
     <!-- #  --  this HTML PAGE goes to  --  # -->
     <!-- #  ---------  Andy Diaz  --------  # -->
-
 </head>
 <body>
+<div id="container">
     <!--# # # # # # # # # #-->
 <!--    #   HEADER DIV    #   ------------------------------------>
     <!--# # # # # # # # # #-->
@@ -27,13 +27,33 @@
     <!--# # # # # # # # # # # -->
 <!--    #      NAV DIV      #    ------------------------------->
     <!--# # # # # # # # # # # -->
-<div id="nav">
+    <div id="nav">
 
+<<<<<<< HEAD
     <a class="NavLink" href="home.html">Home</a>
     <a class="NavLink" href="aboutUs.html">About Us</a>
     <a class="NavLink" href="newProducts.html">What's New</a>
     <a class="NavLink" href="projCommunity.html">Project Community</a>
     <a class="NavLink" href="profilePage.html">Profile</a>
+=======
+        <div id="navbar">
+            <a class="NavLink" href="home.html">Home</a>
+            <a class="NavLink" href="aboutUs.html">About Us</a>
+            <a class="NavLink" href="newProducts.html">What's New</a>
+            <a class="NavLink" href="projCommunity.html">Project Community</a>
+            <a class="NavLink" href="profilePage.html">Profile</a>
+        </div>
+        <div id="cartStuff">
+            <form><input type="text" placeholder="Search Dark Dev"><button><a href="searchResults.html">Go</a></button></form>
+            <p>cart: 0</p>
+        </div>
+        <div id ="profileID">
+            <p style="color: white">.</p>
+            <img src="http://vignette3.wikia.nocookie.net/java/images/0/0e/Camera_icon.gif/revision/latest?cb=20090227194712" style="width:70px; height: 70px"><br>
+            <p>UsernameHere</p>
+            <button><a href="index.html">log out</a></button>
+        </div>
+>>>>>>> 5d819bf7e6ecac505f59ed56ebb2d544c047c18b
 
     </div>
 <!--###  nav end  ###-------------------------------------->
@@ -41,14 +61,89 @@
 <!--    #   CONTENT DIV   #    -------------------------------->
     <!--# # # # # # # # # # -->
 <div id="content">
-
-
-
     <div id="searchResults">
-        <div id="filter">
+        <h3>showing results for: (what you typed)</h3>
+        <p>results: 1 of 1</p>
+        <p>Filter:</p>
+        <div id="filterList">
+<!--###  Filter Table  ###-->
+            <table id="filters">
+                <tr>
+                    <td>Prod Type</td>
+                    <td>Memory Amount</td>
+                    <td>Accessories</td>
+                    <td>Cost</td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--# Product Type #-->
+                        <form>
+                            <input type="checkbox" name="videoCamera">Video Camera<br>
+                            <input type="checkbox" name="DSLR">DSLR<br>
+                            <input type="checkbox" name="pointShoot">Point & Shoot
+                        </form>
+                    </td>
+                    <td>
+                        <!--# Memory Amount #-->
+                        <form>
+                            <input type="checkbox" name="1g">1 gb<br>
+                            <input type="checkbox" name="2g">2 gb<br>
+                            <input type="checkbox" name="8g">8 gb<br>
+                            <input type="checkbox" name="16g">16 gb<br>
+                            <input type="checkbox" name="32g">32 gb
+                        </form>
+                    </td>
+                    <td>
+                        <!--# Accessories #-->
+                        <form>
+                            <input type="checkbox" name="none">none<br>
+                            <input type="checkbox" name="tripod">Tripod<br>
+                            <input type="checkbox" name="exLens">Extra Lens<br>
+                            <input type="checkbox" name="strap">Strap
+                        </form>
+                    </td>
+                    <td>
+                        <!--# Cost #-->
+                        <form>
+                            <input type="checkbox" name="0-20">0-$20 week<br>
+                            <input type="checkbox" name="21-50">21-$50 week<br>
+                            <input type="checkbox" name="51-100">51-$100 week<br>
+                            <input type="checkbox" name="101-200">101-$200 week<br>
+                            <input type="checkbox" name="200-500">200-$500 week
+                        </form>
+                    </td>
+                </tr>
+            </table>
 
         </div>
+        <p style="color: white">.</p>
+        <p>Results:</p>
         <div id="resultsList">
+<!--###  Results Table  ###-->
+            <table id="results">
+                <tr>
+                    <td>Img</td>
+                    <td>Name</td>
+                    <td>Prod Type</td>
+                    <td>Memory Amount</td>
+                    <td>Accessories</td>
+                    <td>Cost</td>
+                </tr>
+                <tr>
+                    <!--# IMG #-->
+                    <td><img src="http://images.clipartpanda.com/camera-flash-silhouette-camera-md.png" style="width:60px; height: 50px"></td>
+                    <!--# name #-->
+                    <td>Example Cam</td>
+                    <!--# Prod Type #-->
+                    <td>DSLR</td>
+                    <!--# Memory Amount #-->
+                    <td>1 gb</td>
+                    <!--# Accessories #-->
+                    <td>none</td>
+                    <!--# Cost #-->
+                    <td>$499</td>
+                </tr>
+            </table>
 
         </div>
     </div>
@@ -67,5 +162,6 @@
     <p style="color: white">.</p>
 </div>
 <!--###  footer end   ###----------------------------------------->
+</div>
 </body>
 </html>

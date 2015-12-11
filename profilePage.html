@@ -9,6 +9,7 @@
     <!-- #  ---------  Andy Diaz  --------  # -->
 </head>
 <body>
+<div id="container">
     <!--# # # # # # # # # #-->
 <!--    #   HEADER DIV    #   ------------------------------------>
     <!--# # # # # # # # # #-->
@@ -26,21 +27,59 @@
     <!--# # # # # # # # # # # -->
 <!--    #      NAV DIV      #    ------------------------------->
     <!--# # # # # # # # # # # -->
-<div id="nav">
+    <div id="nav">
 
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/home.html">Home</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/aboutUs.html">About Us</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/newProducts.html">What's New</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/projCommunity.html">Project Community</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/profilePage.html">Profile</a>
+        <div id="navbar">
+            <a class="NavLink" href="home.html">Home</a>
+            <a class="NavLink" href="aboutUs.html">About Us</a>
+            <a class="NavLink" href="newProducts.html">What's New</a>
+            <a class="NavLink" href="projCommunity.html">Project Community</a>
+            <a class="NavLink" href="profilePage.html">Profile</a>
+        </div>
+        <div id="cartStuff">
+            <form><input type="text" placeholder="Search Dark Dev"><button><a href="searchResults.html">Go</a></button></form>
+            <p>cart: 0</p>
+        </div>
+        <div id ="profileID">
+            <p style="color: white">.</p>
+            <img src="http://vignette3.wikia.nocookie.net/java/images/0/0e/Camera_icon.gif/revision/latest?cb=20090227194712" style="width:70px; height: 70px"><br>
+            <p>UsernameHere</p>
+            <button><a href="index.html">log out</a></button>
+        </div>
 
-</div>
+    </div>
 <!--###  nav end  ###-------------------------------------->
     <!--# # # # # # # # # # -->
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
 <div id="content">
 
+    <div id="profileInfo">
+        
+        <form style="text-align: left; margin-left: 40px">
+            First Name: Mollee
+            <br>
+            Last Name: Marquez
+            <br>
+            Email: darkdevel@gmail.com
+            <br>
+            Birthday: April 1st, 1969
+            <br>
+            Address: 00000 w Santa Ln,
+            <br>
+            Berkley, CA 90210
+            <br>
+            United States
+            <br>
+            Cell Number: (000)000-0000
+            <br>
+            Credit Card Number: 0000************
+            <br>
+            Expiration Date: Yesterday
+            <br>
+            <button><a href="register.html">Change Info</a></button>
+        </form>
+    </div>
 
 </div>
 <!--###  content end  ###---------------------------------------->
@@ -56,5 +95,6 @@
     <p style="color: white">.</p>
 </div>
 <!--###  footer end   ###----------------------------------------->
+</div>
 </body>
 </html>

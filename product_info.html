@@ -7,9 +7,9 @@
     <!-- #  Credit for the Construction of  # -->
     <!-- #  --  this HTML PAGE goes to  --  # -->
     <!-- #  ---------  Andy Diaz  --------  # -->
-
 </head>
 <body>
+<div id="container">
     <!--# # # # # # # # # #-->
 <!--    #   HEADER DIV    #   ------------------------------------>
     <!--# # # # # # # # # #-->
@@ -27,15 +27,27 @@
     <!--# # # # # # # # # # # -->
 <!--    #      NAV DIV      #    ------------------------------->
     <!--# # # # # # # # # # # -->
-<div id="nav">
+    <div id="nav">
 
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/home.html">Home</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/aboutUs.html">About Us</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/newProducts.html">What's New</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/projCommunity.html">Project Community</a>
-    <a class="NavLink" href="http://localhost:63342/Dark_Development_Website/profilePage.html">Profile</a>
+        <div id="navbar">
+            <a class="NavLink" href="home.html">Home</a>
+            <a class="NavLink" href="aboutUs.html">About Us</a>
+            <a class="NavLink" href="newProducts.html">What's New</a>
+            <a class="NavLink" href="projCommunity.html">Project Community</a>
+            <a class="NavLink" href="profilePage.html">Profile</a>
+        </div>
+        <div id="cartStuff">
+            <form><input type="text" placeholder="Search Dark Dev"><button><a href="searchResults.html">Go</a></button></form>
+            <p>cart: 0</p>
+        </div>
+        <div id ="profileID">
+            <p style="color: white">.</p>
+            <img src="http://vignette3.wikia.nocookie.net/java/images/0/0e/Camera_icon.gif/revision/latest?cb=20090227194712" style="width:70px; height: 70px"><br>
+            <p>UsernameHere</p>
+            <button><a href="index.html">log out</a></button>
+        </div>
 
-</div>
+    </div>
 <!--###  nav end  ###------------------------------------------->
     <!--# # # # # # # # # # -->
 <!--    #   CONTENT DIV   #    --------------------------------->
@@ -69,5 +81,6 @@
     <p style="color: white">.</p>
 </div>
 <!--###  footer end   ###----------------------------------------->
+</div>
 </body>
 </html>

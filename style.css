@@ -3,7 +3,9 @@
     background-color:#f0f0f0;
     height:2050px;
     width:1423px;
-    margin-left:-8px;
+    margin-left:-3px;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 .jumboSlide{
     height:485px;
@@ -26,7 +28,6 @@
     top:35px;
 }
 .search-menu{
-    background-color:transparent;
     width:1000px;
     height:35px;
     margin-left:400px;
@@ -34,6 +35,41 @@
     position:absolute;
 
 }
+
+/*Nav bar menu (start)*/
+
+.search-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.search-menu li{
+    float: left;
+}
+
+.search-menu li a{
+    display: block;
+    font-size:20px;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:17px;
+    text-decoration: none;
+}
+
+.search-menu li a:hover{
+    background-color: #111;
+}
+
+
+/*Nav bar menu (end)*/
+
+
 .filler{
     height:100px;
     width:1050px;
@@ -41,10 +77,13 @@
 }
 /*START OF GALLERY*/
 .pic-title{
-    background-color:purple;
+    background-color:transparent;
     height:90px;
-    width:1000px;
-    margin-left:210px;
+    width:900px;
+    margin-left:255px;
+    text-align:center;
+    text-decoration:underline;
+
 }
 .pic-gallery{
     background-color:#B64642;
@@ -55,15 +94,18 @@
 
 }
 .pic-1{
-    background-color: #f0f0f0;
-    height: 360px;
-    width: 360px;
-    position:absolute;
+    height: 375px;
+    width: 375px;
+    position: absolute;
     margin-left:53px;
     margin-top:120px;
-
+    background-image:url("http://cdn.picturecorrect.com/wp-content/uploads/2010/07/abbreviations-lens.jpg");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 }
+
 .pic-2{
     background-color: #f0f0f0;
     height: 375px;
@@ -71,6 +113,11 @@
     position:absolute;
     margin-left:505px;
     margin-top:120px;
+    background-image:url("http://www.slrphotographyguide.com/images/dslr-camera.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 
 }
@@ -81,6 +128,10 @@
     position:absolute;
     margin-left:973px;
     margin-top:120px;
+    background-image:url("http://www.nikonians.org/res/images/2013_09/20130930_134449_soften-studio-photography-lighting-800x800.jpg");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 
 }
@@ -91,6 +142,10 @@
     position:absolute;
     margin-left:53px;
     margin-top: 525px;
+    background-image:url("http://3zgehi1uaxi23dphbrgqa50r6z.wpengine.netdna-cdn.com/wp-content/uploads/2013/05/IMGP0400-2.jpg");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 }
 .pic-5{
@@ -100,6 +155,10 @@
     position:absolute;
     margin-left: 505px;
     margin-top:525px;
+    background-image:url("http://www.highpants.net/wp-content/uploads/2012/12/highpants-sony-next-gen-alpha-alpha-range-of-24-lenses-640x399.jpg");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 
 }
@@ -110,6 +169,10 @@
     position:absolute;
     margin-left:973px;
     margin-top: 525px;
+    background-image:url("http://www.ishootshows.com/wp-content/uploads/2015/01/tt-airport-international-v-20.jpg");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 .pic-7{
     background-color: #f0f0f0;
@@ -118,6 +181,11 @@
     position:absolute;
     margin-left:53px;
     margin-top: 940px;
+    background-image:url("http://nerohelp.info/uploads/posts/2013-09/1379318528_2967476_fdr-ax1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 }
 .pic-8{
@@ -127,6 +195,10 @@
     position:absolute;
     margin-left:505px;
     margin-top:940px;
+    background-image:url("");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 }
 .pic-9{
@@ -136,6 +208,10 @@
     position:absolute;
     margin-left:973px;
     margin-top: 940px;
+    background-image:url("");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
 }
 /*END OF GALLERY*/
@@ -147,14 +223,14 @@
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
     height: 474px;
     width: 1423px;
-    margin: 20px 10px 10px 0;
+    margin: 0 10px 10px 0;
     overflow: visible;
     position: relative;
-
+;
 }
 #mask {
     overflow: hidden;
-    height: 320px;
+    height: 478px;
 }
 #slider ul {
     margin: 0;
@@ -166,32 +242,23 @@
     height: 500px;/* Width Image */
     width: 1423px; /* Height Image */
     position: absolute;
-    top: -325px; /* Original Position - Outside of the Slider */
+    top: -425px; /* Original Position - Outside of the Slider */
     list-style: none;
 }
 .s-pic1{
-    width:100%;
-    height:100%;
 
 }
 .s-pic3{
-    width:100%;
-    height:100%;
 
 }
 .s-pic3{
-    width:100%;
-    height:100%;
 
 }
 .s-pic4{
-    width:100%;
-    height:100%;
 
 }
 .s-pic5{
-    width:100%;
-    height:100%;
+
 }
 #slider li.firstanimation {
     animation: cycle 25s linear infinite;
@@ -218,22 +285,22 @@
 
 }
 @keyframes cycle {
-    0%  { top: 0px; }
-    4%  { top: 0px; }
-    16% { top: 0px; opacity:1; z-index:0; }
+    0%  { top: 0; }
+    4%  { top: 0; }
+    16% { top: 0; opacity:1; z-index:0; }
     20% { top: 325px; opacity: 0; z-index: 0; }
     21% { top: -325px; opacity: 0; z-index: -1; }
     92% { top: -325px; opacity: 0; z-index: 0; }
     96% { top: -325px; opacity: 0; }
-    100%{ top: 0px; opacity: 1; }
+    100%{ top: 0; opacity: 1; }
 }
 
 @keyframes cycletwo {
     0%  { top: -325px; opacity: 0; }
     16% { top: -325px; opacity: 0; }
-    20% { top: 0px; opacity: 1; }
-    24% { top: 0px; opacity: 1; }
-    36% { top: 0px; opacity: 1; z-index: 0; }
+    20% { top: 0; opacity: 1; }
+    24% { top: 0; opacity: 1; }
+    36% { top: 0; opacity: 1; z-index: 0; }
     40% { top: 325px; opacity: 0; z-index: 0; }
     41% { top: -325px; opacity: 0; z-index: -1; }
     100%{ top: -325px; opacity: 0; z-index: -1; }
@@ -242,9 +309,9 @@
 @keyframes cyclethree {
     0%  { top: -325px; opacity: 0; }
     36% { top: -325px; opacity: 0; }
-    40% { top: 0px; opacity: 1; }
-    44% { top: 0px; opacity: 1; }
-    56% { top: 0px; opacity: 1; }
+    40% { top: 0; opacity: 1; }
+    44% { top: 0; opacity: 1; }
+    56% { top: 0; opacity: 1; }
     60% { top: 325px; opacity: 0; z-index: 0; }
     61% { top: -325px; opacity: 0; z-index: -1; }
     100%{ top: -325px; opacity: 0; z-index: -1; }
@@ -253,8 +320,8 @@
 @keyframes cyclefour {
     0%  { top: -325px; opacity: 0; }
     56% { top: -325px; opacity: 0; }
-    60% { top: 0px; opacity: 1; }
-    64% { top: 0px; opacity: 1; }
+    60% { top: 0; opacity: 1; }
+    64% { top: 0; opacity: 1; }
     76% { top: 0px; opacity: 1; z-index: 0; }
     80% { top: 325px; opacity: 0; z-index: 0; }
     81% { top: -325px; opacity: 0; z-index: -1; }
@@ -263,9 +330,9 @@
 @keyframes cyclefive {
     0%  { top: -325px; opacity: 0; }
     76% { top: -325px; opacity: 0; }
-    80% { top: 0px; opacity: 1; }
-    84% { top: 0px; opacity: 1; }
-    96% { top: 0px; opacity: 1; z-index: 0; }
+    80% { top: 0; opacity: 1; }
+    84% { top: 0; opacity: 1; }
+    96% { top: 0; opacity: 1; z-index: 0; }
     100%{ top: 325px; opacity: 0; z-index: 0; }
 }
 /*THIS IS ALL THE SLIDESHOW CSS(END)*/
