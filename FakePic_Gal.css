@@ -1,18 +1,32 @@
 .pic-gallery{
     background-color:#B64642;
-    height:1375px;
-    width:1400px;
-    margin-left:10px;
+    height:900px;
+    width:935px;
+    margin-left:20px;
     z-index: 1;
 
 }
+.label{
+    background-color: #f0f0f0;
+    height: 80px;
+    width: 400px;
+    position: absolute;
+    margin-left:300px;
+    margin-top:10px;
+    background-image:url("");
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
+}
 .pic-1{
+    background-color: #f0f0f0;
     height: 200px;
     width: 200px;
     position: absolute;
     margin-left:170px;
     margin-top:120px;
-    background-image:url("http://cdn.picturecorrect.com/wp-content/uploads/2010/07/abbreviations-lens.jpg");
+    background-image:url("");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -26,9 +40,8 @@
     position:absolute;
     margin-left:400px;
     margin-top:120px;
-    background-image:url("http://www.slrphotographyguide.com/images/dslr-camera.jpg");
+    background-image:url("");
     background-position: right;
-    background-repeat: no-repeat;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 
@@ -41,7 +54,7 @@
     position:absolute;
     margin-left:630px;
     margin-top:120px;
-    background-image:url("http://www.nikonians.org/res/images/2013_09/20130930_134449_soften-studio-photography-lighting-800x800.jpg");
+    background-image:url("");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -55,7 +68,7 @@
     position:absolute;
     margin-left:170px;
     margin-top: 350px;
-    background-image:url("http://3zgehi1uaxi23dphbrgqa50r6z.wpengine.netdna-cdn.com/wp-content/uploads/2013/05/IMGP0400-2.jpg");
+    background-image:url("");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -68,7 +81,7 @@
     position:absolute;
     margin-left:400px;
     margin-top: 350px;
-    background-image:url("http://www.highpants.net/wp-content/uploads/2012/12/highpants-sony-next-gen-alpha-alpha-range-of-24-lenses-640x399.jpg");
+    background-image:url("");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -82,7 +95,7 @@
     position:absolute;
     margin-left:630px;
     margin-top: 350px;
-    background-image:url("http://www.ishootshows.com/wp-content/uploads/2015/01/tt-airport-international-v-20.jpg");
+    background-image:url("");
     background-position: center;
     border: 2px solid #000;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -94,7 +107,7 @@
     position:absolute;
     margin-left:170px;
     margin-top:580px;
-    background-image:url("http://nerohelp.info/uploads/posts/2013-09/1379318528_2967476_fdr-ax1.jpg");
+    background-image:url("");
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid #000;
