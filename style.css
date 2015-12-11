@@ -370,3 +370,41 @@
     100%{ top: 325px; opacity: 0; z-index: 0; }
 }
 /*THIS IS ALL THE SLIDESHOW CSS(END)*/
+
+.copyright{
+    width: 50%;
+    float: left;
+
+
+}
+.copyright p{
+    text-align: left;
+    line-height: 120px;
+}
+
+.logo{
+    align-items: center;
+    margin-top: 4%;
+    float: left;
+}
+
+.logo img{
+    width:60px;
+    height: 50px;
+
+}
+
+
+.links{
+    margin-top: 5%;
+    float: left;
+    width: 40%;
+}
+
+.links a{
+    float: right;
+    padding-left: 3%;
+    padding-right: 7%;
+    color: #000;
+
+}
