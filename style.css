@@ -19,9 +19,14 @@ body{
     height:70px;
     width:1424px;
     position:fixed;
+<<<<<<< HEAD
+    z-index:5;
+    top:0;
+=======
     top:0;
     z-index:10;
     margin-left:3px;
+>>>>>>> origin/gavinV3
 }
 
 
@@ -86,13 +91,21 @@ body{
     padding-right:25px;
     padding-bottom:17px;
     text-decoration: none;
+<<<<<<< HEAD
+}
+
+.search-menu li a:hover{
+    background-color:red;
+=======
     transition: 0.3s all;
 
 }
 
 .search-menu li a:hover{
     background-color: rgb(153,82,82) ;
+>>>>>>> origin/gavinV3
     color:black;
+    transition: 0.3s all;
 }
 
 /*Nav bar menu (end)*/
