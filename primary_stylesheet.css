@@ -154,15 +154,12 @@ form{
     float: right;
     text-align: center;
 }
-
-
 #loginSquare{
 
     background-color: white;
     width: 900px;
     border-radius: 2px;
 }
-
 #history p{
     font-size:25px;
 }
@@ -243,11 +240,11 @@ form{
     width:50px;
     border-radius:25px;
 }
-
 .profileSub{
     float: left;
     margin-left: 30px;
 }
+/*Malfunctioning pop-up div style*/
 .ProfView{
     Position: absolute;
     height: 60%;
@@ -276,7 +273,7 @@ form{
 .profPics{
     color: white;
     float: left;
-    margin-left: 30px;
+    margin-left: 42px;
     margin-bottom: 30px;
     height: 75px;
     width: 75px;
@@ -288,7 +285,7 @@ form{
 .profPics2{
     color: white;
     float: left;
-    margin-left: 30px;
+    margin-left: 42px;
     height: 75px;
     width: 75px;
     background-position: center;
