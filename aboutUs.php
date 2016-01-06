@@ -30,11 +30,8 @@
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
 <div class="content">
-<<<<<<< HEAD
 <div id="loginSquare" style="margin-left:20px;">
-=======
-<div id="loginSquare" style="margin-left:-250px;">
->>>>>>> 70b58f6fc4cad5a0ef3d45b1d5cebb0f9574165b
+
     <div id="history">
         <h3 style="text-decoration:underline; font-size:30px;">OUR HISTORY</h3>
         <p>TBD.</p>
@@ -66,8 +63,8 @@
         </div>
         <div class="links">
             <a href="home.php">Home</a>
-            <a href="index.html">Sign-In</a>
-            <a href="aboutUs.html">About Us</a>
+            <a href="index.php">Sign-In</a>
+            <a href="aboutUs.php">About Us</a>
         </div>
     </footer>
 <!--###  footer end   ###----------------------------------------->

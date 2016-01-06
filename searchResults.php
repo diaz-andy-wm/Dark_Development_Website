@@ -15,7 +15,7 @@
         
         <div id="navbar">
             <a class="NavLink" href="home.php">Home</a>
-            <a class="NavLink" href="aboutUs.html">About Us</a>
+            <a class="NavLink" href="aboutUs.php">About Us</a>
             <a class="NavLink" href="newProducts.php">What's New</a>
             <a class="NavLink" href="projCommunity.php">Project Community</a>
             <a class="NavLink" href="profilePage.php">Profile</a>
@@ -28,7 +28,7 @@
             <p style="color: white">.</p>
             <img src="http://vignette3.wikia.nocookie.net/java/images/0/0e/Camera_icon.gif/revision/latest?cb=20090227194712" style="width:70px; height: 70px"><br>
             <p>UsernameHere</p>
-            <button><a href="index.html">log out</a></button>
+            <button><a href="index.php">log out</a></button>
         </div>
 
     </div>
@@ -39,7 +39,7 @@
             <nav role='navigation'>
                 <ul>
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="aboutUs.php">About</a></li>
                     <li><a href="newProducts.php">Products</a></li>
                     <li><a href="projCommunity.php">Member Projects</a></li>
                     <li><a href="profilePage.php">Profile</a></li>

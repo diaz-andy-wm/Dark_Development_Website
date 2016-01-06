@@ -75,8 +75,8 @@
         </div>
         <div class="links">
             <a href="home.php">Home</a>
-            <a href="index.html">Sign-In</a>
-            <a href="aboutUs.html">About Us</a>
+            <a href="index.php">Sign-In</a>
+            <a href="aboutUs.php">About Us</a>
         </div>
     </footer>
 <!--###  footer end   ###----------------------------------------->
