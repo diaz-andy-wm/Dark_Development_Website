@@ -16,17 +16,12 @@ body{
 
 .nav-bar-menu{
     background-color: white;
-    height:70px;
-    width:1424px;
+    height:100px;
+    width:1440px;
     position:fixed;
-<<<<<<< HEAD
-    z-index:5;
     top:0;
-=======
-    top:0;
-    z-index:10;
-    margin-left:3px;
->>>>>>> origin/gavinV3
+    z-index:99;
+    margin-left:-2px;
 }
 
 
@@ -35,11 +30,11 @@ body{
     border-radius:3px;
     height:25px;
     width:270px;
-    margin-left:475px;
+    margin-left:400px;
     position:absolute;
-    top:35px;
+    top:38px;
     border:2px white;
-    margin-top:-7px;
+    margin-top:21px;
 
 
 
@@ -89,21 +84,21 @@ body{
     padding-top:5px;
     padding-left:25px;
     padding-right:25px;
-    padding-bottom:17px;
+    padding-bottom:15px;
     text-decoration: none;
-<<<<<<< HEAD
+    margin-top:29px;
+    margin-left:-5px;
+    margin-right:-3px;
 }
 
 .search-menu li a:hover{
     background-color:red;
-=======
     transition: 0.3s all;
 
 }
 
 .search-menu li a:hover{
-    background-color: rgb(153,82,82) ;
->>>>>>> origin/gavinV3
+    background-color: red ;
     color:black;
     transition: 0.3s all;
 }
@@ -134,7 +129,7 @@ body{
     z-index: 1;
     border: 2px solid #000;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.9);
-    background-color: rgba(153,82,82,0.6) ;
+    background-color: #BC2528 ;
 
 }
 .background-color{

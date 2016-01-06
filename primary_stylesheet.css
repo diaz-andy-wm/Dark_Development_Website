@@ -151,10 +151,15 @@ form{
     text-align: center;
 }
 #loginSquare{
-
+    margin-right:-200px;
     background-color: white;
+<<<<<<< HEAD
+    width: 1400px;
+    border-radius: 5px;
+=======
     width: 900px;
     border-radius: 2px;
+>>>>>>> 70b58f6fc4cad5a0ef3d45b1d5cebb0f9574165b
 }
 #history p{
     font-size:25px;
