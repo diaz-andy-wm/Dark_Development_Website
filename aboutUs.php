@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Dark Development - What's New</title>
+    <title>Dark Development Website - About Us</title>
     <link rel="stylesheet" type="text/css" href="primary_stylesheet.css">
     <link rel="stylesheet" type="text/css" href="navStyle.css">
 
@@ -18,11 +19,11 @@
             <div class="navLogo"><img src="pics/logo.png"> </div> <div class="name"><h1>Dark Development</h1></div>
             <nav role='navigation'>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li><a href="aboutUs.html">About</a></li>
-                    <li><a href="newProducts.html">Products</a></li>
-                    <li><a href="projCommunity.html">Member Projects</a></li>
-                    <li><a href="profilePage.html">Profile</a></li>
+                    <li><a href="newProducts.php">Products</a></li>
+                    <li><a href="projCommunity.php">Member Projects</a></li>
+                    <li><a href="profilePage.php">Profile</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,9 +33,23 @@
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
 <div class="content">
+<div id="loginSquare">
+    <div id="history">
+        <h3 style="text-decoration:underline; font-size:30px;">OUR HISTORY</h3>
+        <p>this is to be determined, for our group came together, like last week.</p>
+    </div>
+    <div id="location">
+        <h3 style="text-decoration:underline; font-size:30px;">OUR LOCATION</h3>
+        <p>our group is located in the Start @ West-MEC program in Arizona.</p>
+    </div>
 
-    <h2>Sorry for the Inconvenience...</h2>
-    <p>(no new products available)</p>
+    <div id="pledge">
+        <h3 style="text-decoration:underline; font-size:30px;">OUR PLEDGE</h3>
+        <p>we pledge  to have fun making this website and will try to make your stay fun too, on our web domain.</p>
+    </div>
+
+</div>
+
 
 </div>
 <!--###  content end  ###---------------------------------------->
@@ -49,12 +64,11 @@
             <img src="pics/logo.png">
         </div>
         <div class="links">
-            <a href="home.html">Home</a>
+            <a href="home.php">Home</a>
             <a href="index.html">Sign-In</a>
             <a href="aboutUs.html">About Us</a>
         </div>
     </footer>
 <!--###  footer end   ###----------------------------------------->
-
 </body>
 </html>

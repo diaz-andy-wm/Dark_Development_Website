@@ -17,14 +17,14 @@
     <div id="nav">
         
         <div id="navbar">
-            <a class="NavLink" href="home.html">Home</a>
+            <a class="NavLink" href="home.php">Home</a>
             <a class="NavLink" href="aboutUs.html">About Us</a>
-            <a class="NavLink" href="newProducts.html">What's New</a>
-            <a class="NavLink" href="projCommunity.html">Project Community</a>
-            <a class="NavLink" href="profilePage.html">Profile</a>
+            <a class="NavLink" href="newProducts.php">What's New</a>
+            <a class="NavLink" href="projCommunity.php">Project Community</a>
+            <a class="NavLink" href="profilePage.php">Profile</a>
         </div>
         <div id="cartStuff">
-            <form><input type="text" placeholder="Search Dark Dev"><button><a href="searchResults.html">Go</a></button></form>
+            <form><input type="text" placeholder="Search Dark Dev"><button><a href="searchResults.php">Go</a></button></form>
             <p>cart: 0</p>
         </div>
         <div id ="profileID">
@@ -41,11 +41,11 @@
             <div class="navLogo"><img src="pics/logo.png"> </div> <div class="name"><h1>Dark Development</h1></div>
             <nav role='navigation'>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li><a href="aboutUs.html">About</a></li>
-                    <li><a href="newProducts.html">Products</a></li>
-                    <li><a href="projCommunity.html">Member Projects</a></li>
-                    <li><a href="profilePage.html">Profile</a></li>
+                    <li><a href="newProducts.php">Products</a></li>
+                    <li><a href="projCommunity.php">Member Projects</a></li>
+                    <li><a href="profilePage.php">Profile</a></li>
                 </ul>
             </nav>
         </div>
@@ -156,7 +156,7 @@
             <img src="pics/logo.png">
         </div>
         <div class="links">
-            <a href="home.html">Home</a>
+            <a href="home.php">Home</a>
             <a href="index.html">Sign-In</a>
             <a href="aboutUs.html">About Us</a>
         </div>
