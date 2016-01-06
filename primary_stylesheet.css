@@ -152,15 +152,43 @@ form{
     text-align: center;
 }
 #loginSquare{
-    margin-right:-200px;
-    background-color: white;
-<<<<<<< HEAD
+    margin-left:20px;
+    height:900px;
     width: 1400px;
-    border-radius: 5px;
-=======
-    width: 900px;
     border-radius: 2px;
->>>>>>> 70b58f6fc4cad5a0ef3d45b1d5cebb0f9574165b
+    background-color:transparent;
+}
+#history{
+    width:600px;
+    height:550px;
+    margin-right:650px;
+    background-color: #e9504c;
+    margin-left:50px;
+    border-radius: 2px;
+    border:2px solid black;
+    text-align: center;
+}
+#location{
+    width:600px;
+    height:550px;
+    margin-left:750px;
+    margin-top:-550px;
+    border-radius: 2px;
+    background-color: #e9504c;
+    border:2px solid black;
+    text-align: center;
+
+}
+#pledge{
+     width: 1300px;
+     height:300px;
+    margin-left:50px;
+    margin-top:25px;
+    border-radius: 2px;
+    background-color: #e9504c;
+    border:2px solid black;
+    text-align: center;
+
 }
 #history p{
     font-size:25px;
