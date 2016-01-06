@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<?php
+$hostname = 'localhost';
+$username = 'root';
+$password = 'root';
+
+try {
+    $dbh = new PDO("mysql:host=$hostname;dbname=mysql", $username, $password);
+
+}
+catch(PDOException $e)
+{
+    echo $e->getMessage();
+}
+
+
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,7 +50,7 @@
             Password:
             <input type="password" name="psw" class="enjoy-css">
             <br>
-            <button class="button"><a href="home.html">Log-In</a></button> <button class="button"><a href="register.html">Register</a></button>
+            <button class="button"><a href="home.php">Log-In</a></button> <button class="button"><a href="register.php">Register</a></button>
         </form>
     </div>
 <!-- END CONTENT-->
@@ -49,9 +65,9 @@
         <img src="pics/logo.png">
     </div>
     <div class="links">
-        <a href="home.html">Home</a>
-        <a href="index.html">Sign-In</a>
-        <a href="aboutUs.html">About Us</a>
+        <a href="home.php">Home</a>
+        <a href="index.php">Sign-In</a>
+        <a href="aboutUs.php">About Us</a>
     </div>
 </footer>
 <!--END FOOTER-->

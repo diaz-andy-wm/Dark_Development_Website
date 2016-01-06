@@ -84,11 +84,11 @@
                 <!--Horizontal nav bar -->
                 <ul>
 
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li><a href="aboutUs.html">About</a></li>
-                    <li><a href="newProducts.html">Products</a></li>
-                    <li><a href="projCommunity.html">Member Projects</a></li>
-                    <li><a href="profilePage.html">Profile</a></li>
+                    <li><a href="newProducts.php">Products</a></li>
+                    <li><a href="projCommunity.php">Member Projects</a></li>
+                    <li><a href="profilePage.php">Profile</a></li>
 
                 </ul>
 
@@ -173,7 +173,7 @@
             <img src="http://images.clipartpanda.com/camera-flash-silhouette-camera-md.png">
         </div>
         <div class="links">
-            <a href="home.html">Home</a>
+            <a href="home.php">Home</a>
             <a href="index.html">Sign-In</a>
             <a href="aboutUs.html">About Us</a>
         </div>

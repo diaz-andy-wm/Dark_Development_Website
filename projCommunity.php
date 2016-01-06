@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Dark Development Website - About Us</title>
+    <title>Dark Development Website - DarkDev Social</title>
     <link rel="stylesheet" type="text/css" href="primary_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="FakePic_Gal.css">
     <link rel="stylesheet" type="text/css" href="navStyle.css">
 
 </head>
@@ -15,41 +16,33 @@
             <div class="navLogo"><img src="pics/logo.png"> </div> <div class="name"><h1>Dark Development</h1></div>
             <nav role='navigation'>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li><a href="aboutUs.html">About</a></li>
-                    <li><a href="newProducts.html">Products</a></li>
-                    <li><a href="projCommunity.html">Member Projects</a></li>
-                    <li><a href="profilePage.html">Profile</a></li>
+                    <li><a href="newProducts.php">Products</a></li>
+                    <li><a href="projCommunity.php">Member Projects</a></li>
+                    <li><a href="profilePage.php">Profile</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-<!--###  nav end  ###-------------------------------------->
+<!--###  nav end  ###------------------------------------------->
     <!--# # # # # # # # # # -->
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
-<div class="content">
-<<<<<<< HEAD
-<div id="loginSquare" style="margin-left:20px;">
-=======
-<div id="loginSquare" style="margin-left:-250px;">
->>>>>>> 70b58f6fc4cad5a0ef3d45b1d5cebb0f9574165b
-    <div id="history">
-        <h3 style="text-decoration:underline; font-size:30px;">OUR HISTORY</h3>
-        <p>TBD.</p>
-    </div>
-    <div id="location">
-        <h3 style="text-decoration:underline; font-size:30px;">OUR LOCATION</h3>
-        <p>our group is located in the Start @ West-MEC program in Arizona.</p>
-    </div>
+<div id="content">
 
-    <div id="pledge">
-        <h3 style="text-decoration:underline; font-size:30px;">OUR PLEDGE</h3>
-        <p>we pledge  to have fun making this website and will try to make your stay fun too, on our web domain.</p>
+    <div class="pic-gallery">
+        <div class="label"><h1>Explore</h1></div>
+        <div class="pic-1"><h2>Pics of People</h2></div>
+        <div class="pic-2"><h2>Pics of Places</h2></div>
+        <div class="pic-3"><h2>Pics of Nature</h2></div>
+        <div class="pic-4"><h2>Comedy Films</h2></div>
+        <div class="pic-5"><h2>Action Films</h2></div>
+        <div class="pic-6"><h2>Drama Films</h2></div>
+        <div class="pic-7"><h2>Your Pics</h2></div>
+        <div class="pic-8"><h2>Your Films</h2></div>
+        <div class="pic-9"><h2>Upload</h2></div>
     </div>
-
-</div>
-
 
 </div>
 <!--###  content end  ###---------------------------------------->
@@ -64,11 +57,12 @@
             <img src="pics/logo.png">
         </div>
         <div class="links">
-            <a href="home.html">Home</a>
+            <a href="home.php">Home</a>
             <a href="index.html">Sign-In</a>
             <a href="aboutUs.html">About Us</a>
         </div>
     </footer>
 <!--###  footer end   ###----------------------------------------->
+
 </body>
 </html>

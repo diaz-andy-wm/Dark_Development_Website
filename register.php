@@ -1,3 +1,19 @@
+<?php
+$hostname = 'localhost';
+$username = 'root';
+$password = 'root';
+
+try {
+    $dbh = new PDO("mysql:host=$hostname;dbname=mysql", $username, $password);
+
+}
+catch(PDOException $e)
+{
+    echo $e->getMessage();
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +25,7 @@
     <script type="text/javascript" src="registerScript.js"></script>
 </head>
 <body>
+
 <div id="scroll-animate">
     <div id="scroll-animate-main">
         <div class="wrapper-parallax">
@@ -126,7 +143,7 @@
                     Expiration Date
                     <input type="text" placeholder="mm/yy" class="enjoy-css">
                     <br>
-                    <button class="button"><a href="home.html">Register!</a></button>
+                    <button class="button"><a href="home.php">Register!</a></button>
                 </form>
             </div>
             <footer>
@@ -137,7 +154,7 @@
                     <img src="pics/logo.png">
                 </div>
                 <div class="links">
-                    <a href="home.html">Home</a>
+                    <a href="home.php">Home</a>
                     <a href="index.html">Sign-In</a>
                     <a href="aboutUs.html">About Us</a>
                 </div>
