@@ -131,9 +131,7 @@ form{
  }
  /*end of sign in css*/
 
-#nav{
-    font-family: impact;
-}
+
 #navbar{
     background-color: black;
     text-align: center;
@@ -167,6 +165,8 @@ form{
     border-radius: 2px;
     border:2px solid black;
     text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
 }
 #location{
     width:600px;
@@ -177,6 +177,8 @@ form{
     background-color: #e9504c;
     border:2px solid black;
     text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
 
 }
 #pledge{
@@ -188,6 +190,8 @@ form{
     background-color: #e9504c;
     border:2px solid black;
     text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
 
 }
 #history p{
@@ -423,7 +427,7 @@ p{
 .product{
     border-bottom: 1px solid;
     clear: both;
-    padding: 0px 10% 70px 10%;
+    padding: 0 10% 70px 10%;
 }
 
 .group:after {
@@ -470,7 +474,7 @@ p{
 }
 
 .product-info{
-    padding: 0px 8%;
+    padding: 0 8%;
 }
 
 .product-info h1{
