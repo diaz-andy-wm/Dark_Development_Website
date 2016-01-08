@@ -7,7 +7,6 @@
     <script src="navScript.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<<<<<<< HEAD
     <style>
         a:link{
             color: darkgrey;
@@ -41,8 +40,7 @@
         }
     </style>
 
-=======
->>>>>>> origin/gavinV3
+
 </head>
 <body>
     <!--# # # # # # # # # #-->
