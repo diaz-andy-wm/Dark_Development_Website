@@ -1,15 +1,69 @@
 <?php
-$hostname = 'localhost';
-$username = 'root';
-$password = 'root';
+$firstName = $_POST['firstName'];
+$lastName = $_POST['lastName'];
+$email = $_POST['email'];
+$user = $_POST['username'];
+$pass = $_POST['password'];
+$address= $_POST['address'];
+$aptNum= $_POST['aptNum'];
+$city= $_POST['city'];
+$zip= $_POST['zip'];
+$state= $_POST['state'];
+$country= $_POST['country'];
+$phone= $_POST['phone'];
+$creditCard= $_POST['creditcard'];
+$cvc= $_POST['cvc'];
+$expDate= $_POST['expDate'];
 
-try {
-    $dbh = new PDO("mysql:host=$hostname;dbname=mysql", $username, $password);
 
+
+if($_POST['formSubmit'] == "Submit"){
+
+    $db = mysql_connect("localhost","root","root");
+    if(!$db) die("Error connecting to MySQL database.");
+    mysql_select_db("localhost" ,$db);
+
+
+
+    $sql = "INSERT INTO users (firstName, lastName, email, username, password, address, aptNum, city, zip, state, country, phone, creditCard, cvc, expDate)
+    VALUES (".
+        PrepSQL($firstName) . ", " .
+        PrepSQL($lastName) . ", " .
+        PrepSQL($email) . ", " .
+        PrepSQL($user) . ", " .
+        PrepSQL($pass) . ", " .
+        PrepSQL($address) . ", " .
+        PrepSQL($aptNum) . ", " .
+        PrepSQL($city) . ", " .
+        PrepSQL($zip) . ", " .
+        PrepSQL($state) . ", " .
+        PrepSQL($country) . ", " .
+        PrepSQL($phone) . ", " .
+        PrepSQL($creditCard) . ", " .
+        PrepSQL($cvc) . ", " .
+        PrepSQL($expDate) . ")";
+
+    mysql_query($sql);
+    
+
+    echo "New record created successfully";
 }
-catch(PDOException $e)
+
+
+
+
+function PrepSQL($value)
 {
-    echo $e->getMessage();
+    // Stripslashes
+    if(get_magic_quotes_gpc())
+    {
+        $value = stripslashes($value);
+    }
+
+    // Quote
+    $value = "'" . mysql_real_escape_string($value) . "'";
+
+    return($value);
 }
 
 
@@ -33,39 +87,42 @@ catch(PDOException $e)
                 <h1>Register</h1>
             </header>
             <div id="form" class="content">
-                <form>
+                <form method="post">
                     First Name
-                    <input type="text" placeholder="Mollee" class="enjoy-css">
+                    <input type="text" placeholder="Mollee" class="enjoy-css" name="firstName">
                     <br>
                     Last Name
-                    <input type="text" placeholder="Marquez" class="enjoy-css">
+                    <input type="text" placeholder="Marquez" class="enjoy-css" name="lastName">
                     <br>
                     Email
-                    <input type="email" placeholder="darkdevel@gmail.com" class="enjoy-css">
+                    <input type="email" placeholder="darkdevel@gmail.com" class="enjoy-css" name="email">
+                    <br>
+                    Username
+                    <input type="text" placeholder="iheartulongtime" class="enjoy-css" name="username">
                     <br>
                     Password
-                    <input type="password" class="enjoy-css">
+                    <input type="password" class="enjoy-css" name="password">
                     <br>
                     Confirm Password
-                    <input type="password" class="enjoy-css">
+                    <input type="password" class="enjoy-css" >
                     <br>
                     Birthday
-                    <input type="date" placeholder="dd/mm/yyyy" class="enjoy-css">
+                    <input type="date" placeholder="dd/mm/yyyy" class="enjoy-css" name="birthday">
                     <br>
                     Address
-                    <input type="text" placeholder="00000 w Santa Ln." class="enjoy-css">
+                    <input type="text" placeholder="00000 w Santa Ln." class="enjoy-css" name="address">
                     <br>
                     Suite #
-                    <input type="text" class="enjoy-css">
+                    <input type="text" class="enjoy-css" name="aptNum">
                     <br>
                     City
-                    <input type="text" placeholder="Berkley" class="enjoy-css">
+                    <input type="text" placeholder="Berkley" class="enjoy-css" name="city">
                     <br>
                     Zip Code
-                    <input type="text" placeholder="90210" class="enjoy-css">
+                    <input type="text" placeholder="90210" class="enjoy-css" name="zip">
                     <br>
                     State
-                    <select class="enjoy-css">
+                    <select class="enjoy-css" name="state">
                         <option>AL</option>
                         <option>AK</option>
                         <option>AR</option>
@@ -118,7 +175,7 @@ catch(PDOException $e)
                     </select>
                     <br>
                     Country
-                    <select class="enjoy-css">
+                    <select class="enjoy-css" name="country">
                         <option>Canada</option>
                         <option>Ireland</option>
                         <option>England</option>
@@ -132,18 +189,18 @@ catch(PDOException $e)
                     </select>
                     <br>
                     Cell Number
-                    <input type="text" placeholder="(000)000-0000" class="enjoy-css">
+                    <input type="text" placeholder="(000)000-0000" class="enjoy-css" name="phone">
                     <br>
                     Credit Card Number
-                    <input type="text" placeholder="0000000000000000" class="enjoy-css">
+                    <input type="text" placeholder="0000000000000000" class="enjoy-css" name="creditCard">
                     <br>
                     CVC
-                    <input type="text" placeholder="000" class="enjoy-css">
+                    <input type="text" placeholder="000" class="enjoy-css" name="CVC">
                     <br>
                     Expiration Date
-                    <input type="text" placeholder="mm/yy" class="enjoy-css">
+                    <input type="text" placeholder="mm/yy" class="enjoy-css" name="expDate">
                     <br>
-                    <button class="button"><a href="home.php">Register!</a></button>
+                    <input type="submit" name="submit">
                 </form>
             </div>
             <footer>
