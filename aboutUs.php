@@ -30,12 +30,7 @@
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
 <div class="content">
-<<<<<<< HEAD:aboutUs.php
 <div id="loginSquare" style="margin-left:20px;">
-=======
-
-<div id="loginSquare" >
->>>>>>> origin/gavinV3:aboutUs.html
 
     <div id="history">
         <h3 style="text-decoration:underline; font-size:30px;">OUR HISTORY</h3>
