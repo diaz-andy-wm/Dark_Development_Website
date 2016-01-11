@@ -30,7 +30,12 @@
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
 <div class="content">
+<<<<<<< HEAD:aboutUs.php
 <div id="loginSquare" style="margin-left:20px;">
+=======
+
+<div id="loginSquare" >
+>>>>>>> origin/gavinV3:aboutUs.html
 
     <div id="history">
         <h3 style="text-decoration:underline; font-size:30px;">OUR HISTORY</h3>
@@ -45,9 +50,6 @@
         <h3 style="text-decoration:underline; font-size:30px;">OUR PLEDGE</h3>
         <p>we pledge  to have fun making this website and will try to make your stay fun too, on our web domain.</p>
     </div>
-
-</div>
-
 
 </div>
 <!--###  content end  ###---------------------------------------->

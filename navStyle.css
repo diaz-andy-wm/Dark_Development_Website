@@ -49,10 +49,7 @@ a,
     float: left;
 }
 
-.content {
-    position: area 51.
-    ;
-}
+
 
 header {
     position: fixed;
@@ -107,7 +104,8 @@ nav a {
 }
 
 nav a:hover {
-    background: red;
+    background-color: rgba(255, 34, 34, 0.64);
+    border-radius:4px;
 }
 
 .navLogo {

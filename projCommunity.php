@@ -29,7 +29,7 @@
     <!--# # # # # # # # # # -->
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
-<div id="content">
+<div id="content" style="margin-left:227px;border:2px solid black;margin-right:274px;">
 
     <div class="pic-gallery">
         <div class="label"><h1>Explore</h1></div>
