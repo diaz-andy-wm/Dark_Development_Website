@@ -7,7 +7,6 @@
     <script src="navScript.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<<<<<<< HEAD
     <style>
         a:link{
             color: darkgrey;
@@ -41,8 +40,6 @@
         }
     </style>
 
-=======
->>>>>>> origin/gavinV3
 </head>
 <body>
     <!--# # # # # # # # # #-->
@@ -186,7 +183,7 @@
             <br>
             Expiration Date: Yesterday
             <br>
-            <button><a href="register.html">Change Info</a></button>
+            <button><a href="register.php">Change Info</a></button>
         </form>
     </div>
 

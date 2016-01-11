@@ -85,7 +85,7 @@
                 <ul>
 
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="aboutUs.php">About</a></li>
                     <li><a href="newProducts.php">Products</a></li>
                     <li><a href="projCommunity.php">Member Projects</a></li>
                     <li><a href="profilePage.php">Profile</a></li>
