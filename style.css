@@ -9,102 +9,14 @@ body{
     box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 .jumboSlide{
-    margin-left:-3px;
+    margin-left:5px;
     height:485px;
     width:1425px;
 }
 
-.nav-bar-menu{
-    background-color: white;
-    height:100px;
-    width:1440px;
-    position:fixed;
-    top:0;
-    z-index:99;
-    margin-left:-2px;
-}
-
-
-.search-drop-down{
-    background-color: #979696;
-    border-radius:3px;
-    height:25px;
-    width:270px;
-    margin-left:400px;
-    position:absolute;
-    top:38px;
-    border:2px white;
-    margin-top:21px;
 
 
 
-}
-#text-search{
-    height:25px;
-    width:145px;
-    position:absolute;
-    text-align:center;
-    font-size:25px;
-    color:black;
-
-
-}
-
-
-.search-menu{
-    width:1000px;
-    height:35px;
-    margin-left:400px;
-    top:35px;
-    position:absolute;
-
-
-}
-
-/*Nav bar menu (start)*/
-
-.search-menu ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-    margin-top:-10px;
-    float:right;
-}
-
-.search-menu li{
-    float: left;
-}
-
-.search-menu li a{
-    display: block;
-    font-size:20px;
-    color: black;
-    text-align: center;
-    padding-top:5px;
-    padding-left:25px;
-    padding-right:25px;
-    padding-bottom:15px;
-    text-decoration: none;
-    margin-top:29px;
-    margin-left:-5px;
-    margin-right:-3px;
-}
-
-.search-menu li a:hover{
-    background-color: rgba(255, 34, 34, 0.64);
-    transition: 0.3s all;
-
-}
-
-.search-menu li a:hover{
-    background-color: rgba(255, 34, 34, 0.64);
-    color:black;
-    transition: 0.3s all;
-    border-radius:4px;
-}
-
-/*Nav bar menu (end)*/
 
 
 .filler{
@@ -124,20 +36,17 @@ body{
 
 }
 .pic-gallery{
-    height:1372px;
-    width:1417px;
-    margin-right:5px;
+    height:1379px;
+    width:1419px;
+    margin-left:4px;
+    margin-top:2px;
     z-index: 1;
     border: 2px solid #000;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.9);
+    box-shadow: 1px 4px 1px 1px rgba(0,0,0,0.9);
     background-color: #B64642 ;
 
 }
-.background-color{
-    height:1375px;
-    width:1421px;
-    background-color:#636363;
-}
+
 
 #pic-1{
     height: 375px;
