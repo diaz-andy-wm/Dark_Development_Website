@@ -1,71 +1,69 @@
 <?php
-$firstName = $_POST['firstName'];
-$lastName = $_POST['lastName'];
-$email = $_POST['email'];
-$user = $_POST['username'];
-$pass = $_POST['password'];
-$address= $_POST['address'];
-$aptNum= $_POST['aptNum'];
-$city= $_POST['city'];
-$zip= $_POST['zip'];
-$state= $_POST['state'];
-$country= $_POST['country'];
-$phone= $_POST['phone'];
-$creditCard= $_POST['creditcard'];
-$cvc= $_POST['cvc'];
-$expDate= $_POST['expDate'];
+require_once('test.php');
+$error = false;
+$success = false;
+
+if(@$_POST['addUser']) {
 
 
+    $stmt = $dbh->prepare('INSERT INTO users (
+              firstName,
+              lastName,
+              email,
+              username,
+              password,
+              address,
+              aptNum,
+              city,
+              zip,
+              state,
+              country,
+              phone,
+              creditCard,
+              cvc,
+              expDate)
+            VALUES (
+              :firstName,
+              :lastName,
+              :email,
+              :user,
+              :pass,
+              :address,
+              :aptNum,
+              :city,
+              :zip,
+              :state,
+              :country,
+              :phone,
+              :creditCard,
+              :cvc,
+              :expDate)');
+    $result = $stmt->execute(
+        array(
+            'firstName' => $_POST['firstName'],
+            'lastName' => $_POST['lastName'],
+            'email' => $_POST['email'],
+            'user' => $_POST['username'],
+            'pass' => $_POST['password'],
+            'address' => $_POST['address'],
+            'aptNum' => $_POST['aptNum'],
+            'city' => $_POST['city'],
+            'zip' => $_POST['zip'],
+            'state' => $_POST['state'],
+            'country' => $_POST['country'],
+            'phone' => $_POST['phone'],
+            'creditCard' => $_POST['creditCard'],
+            'cvc' => $_POST['CVC'],
+            'expDate' => $_POST['expDate']
+        )
+    );
 
-if($_POST['formSubmit'] == "Submit"){
-
-    $db = mysql_connect("localhost","root","root");
-    if(!$db) die("Error connecting to MySQL database.");
-    mysql_select_db("localhost" ,$db);
-
-
-
-    $sql = "INSERT INTO users (firstName, lastName, email, username, password, address, aptNum, city, zip, state, country, phone, creditCard, cvc, expDate)
-    VALUES (".
-        PrepSQL($firstName) . ", " .
-        PrepSQL($lastName) . ", " .
-        PrepSQL($email) . ", " .
-        PrepSQL($user) . ", " .
-        PrepSQL($pass) . ", " .
-        PrepSQL($address) . ", " .
-        PrepSQL($aptNum) . ", " .
-        PrepSQL($city) . ", " .
-        PrepSQL($zip) . ", " .
-        PrepSQL($state) . ", " .
-        PrepSQL($country) . ", " .
-        PrepSQL($phone) . ", " .
-        PrepSQL($creditCard) . ", " .
-        PrepSQL($cvc) . ", " .
-        PrepSQL($expDate) . ")";
-
-    mysql_query($sql);
-    
-
-    echo "New record created successfully";
-}
-
-
-
-
-function PrepSQL($value)
-{
-    // Stripslashes
-    if(get_magic_quotes_gpc())
-    {
-        $value = stripslashes($value);
+    if ($result) {
+        $success = $_POST['username'] . " was successfully saved.";
+    } else {
+        $success = "There was an error saving " . $_POST['username'];
     }
-
-    // Quote
-    $value = "'" . mysql_real_escape_string($value) . "'";
-
-    return($value);
 }
-
 
 ?>
 <!DOCTYPE html>
@@ -200,7 +198,7 @@ function PrepSQL($value)
                     Expiration Date
                     <input type="text" placeholder="mm/yy" class="enjoy-css" name="expDate">
                     <br>
-                    <input type="submit" name="submit">
+                    <input type="submit" name="addUser">
                 </form>
             </div>
             <footer>
@@ -212,8 +210,8 @@ function PrepSQL($value)
                 </div>
                 <div class="links">
                     <a href="home.php">Home</a>
-                    <a href="index.html">Sign-In</a>
-                    <a href="aboutUs.html">About Us</a>
+                    <a href="index.php">Sign-In</a>
+                    <a href="aboutUs.php">About Us</a>
                 </div>
             </footer>
         </div>
