@@ -1,3 +1,10 @@
+.searchPPL{
+    height:200px;
+    width:935px;
+    z-index: 1;
+    background-color: #931D1F;
+    text-align: center;
+}
 .pic-gallery{
     background-color:#B64642;
     height:900px;

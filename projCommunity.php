@@ -29,10 +29,19 @@
     <!--# # # # # # # # # # -->
 <!--    #   CONTENT DIV   #    --------------------------------->
     <!--# # # # # # # # # # -->
-<div id="content" style="margin-left:227px;border:2px solid black;margin-right:274px;">
+<div id="content" style="margin-left:227px;margin-right:274px;">
 
-    <div class="pic-gallery">
-        <div class="label"><h1>Explore</h1></div>
+    <div class="searchPPL" style="border:2px solid black;">
+        <br><br><br><br>
+        <form>
+<!--search bar-->            
+            <input type="text" style="width: 250px; height: 32px; font-size: 25px" name="searchUser" placeholder="Search User">
+            <button><img src="http://simpleicon.com/wp-content/uploads/active-search-256x256.png" style="width: 25px; height: 25px"></button>
+        </form>
+    </div>
+    <br><br>
+    <div class="pic-gallery" style="border:2px solid black;">
+        <div class="label"><h1 style="text-align: center">Explore Projects</h1></div>
         <div class="pic-1"><h2>Pics of People</h2></div>
         <div class="pic-2"><h2>Pics of Places</h2></div>
         <div class="pic-3"><h2>Pics of Nature</h2></div>
