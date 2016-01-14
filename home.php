@@ -82,37 +82,6 @@
             </div>
 
         </div>
-<<<<<<< HEAD:home.php
-        <!-- red search button (not functional yet)-->
-        <div class="nav-bar-menu"><!-- nav-bar-menu start-->
-            <div id="logo">
-                <img src="pics/logo.png" style="width:57px;height:50px;margin-top:9px;margin-left:5px;">
-                <span style="font-family: Vato, Verdana, sans-serif;-webkit-font-smoothing: antialiased;font-weight: 400;font-size:21px;">Dark Development</span>
-            </div>
-
-            <div class="search-drop-down"><!-- Start horizontal navigation bar-->
-
-                <div id="text-search">Search Bar:</div>
-
-            </div>
-
-            <div class="search-menu" style="font-family: Vato, Verdana, sans-serif">
-                <!--Horizontal nav bar -->
-                <ul>
-
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="aboutUs.php">About</a></li>
-                    <li><a href="newProducts.php">Products</a></li>
-                    <li><a href="projCommunity.php">Member Projects</a></li>
-                    <li><a href="profilePage.php">Profile</a></li>
-
-                </ul>
-
-
-            </div>
-            <!-- End horizontal navigation bar-->
-=======
->>>>>>> origin/gavinV3:home.html
 
 
     </div><!--jumbo slide end -->
