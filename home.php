@@ -5,14 +5,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
     <script src="jquery copy.js"></script>
+    <link rel="stylesheet" type="text/css" href="navStyle.css">
     <title></title>
 </head>
 <body>
+<header id="topnav" style="z-index: 99">
+    <div class="inner">
+        <div class="navLogo"><img src="pics/logo.png"> </div> <div class="name"><h1 style="font-size: 21px;">Dark Development</h1></div>
+        <nav role='navigation'>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutUs.html">About</a></li>
+                <li><a href="newProducts.html">Products</a></li>
+                <li><a href="projCommunity.html">Member Projects</a></li>
+                <li><a href="profilePage.html">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 <div class="container"><!--Container -->
 
 
-    <div class="jumboSlide"><!-- Jumbo slide-->
+    <div class="jumboSlide" ><!-- Jumbo slide-->
 
         <div class="container" style="background-color:#D1D1D1;">
 
@@ -67,6 +82,7 @@
             </div>
 
         </div>
+<<<<<<< HEAD:home.php
         <!-- red search button (not functional yet)-->
         <div class="nav-bar-menu"><!-- nav-bar-menu start-->
             <div id="logo">
@@ -95,8 +111,9 @@
 
             </div>
             <!-- End horizontal navigation bar-->
+=======
+>>>>>>> origin/gavinV3:home.html
 
-        </div><!-- nav-bar-menu end-->
 
     </div><!--jumbo slide end -->
 

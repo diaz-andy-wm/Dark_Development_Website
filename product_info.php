@@ -52,7 +52,8 @@
 
            <button class="button"><a href="">Add To Cart</a></button>
 
-            <p> This is where description would go. Description goes here, yes it does. Words and more words will be written here. Lots of adjectives are used to describe products. So many words im running out of random phrases. </p>
+            <p> This is where description would go. Description goes here, yes it does. Words and more words will be written here. Lots of adjectives are used to describe products.
+                So many words im running out of random phrases. </p>
 
             <ul>
                 <li>detail</li>
