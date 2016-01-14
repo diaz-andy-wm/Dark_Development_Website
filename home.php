@@ -18,7 +18,7 @@
                 <li><a href="aboutUs.php">About</a></li>
                 <li><a href="newProducts.php">Products</a></li>
                 <li><a href="projCommunity.php">Member Projects</a></li>
-                <li><a href="profilePage.html">Profile</a></li>
+                <li><a href="profilePage.php">Profile</a></li>
             </ul>
         </nav>
     </div>
