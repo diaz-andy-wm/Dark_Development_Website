@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <?php
-$hostname = 'localhost';
-$username = 'root';
-$password = 'root';
+require_once('connect.php');
 
-try {
-    $dbh = new PDO("mysql:host=$hostname;dbname=mysql", $username, $password);
-
-}
-catch(PDOException $e)
+if (isset($_POST['username']) and isset($_POST['psw']))
 {
-    echo $e->getMessage();
-}
 
+// information entered in form made into a variable
+    $username = $_POST['username'];
+    $password = $_POST['psw'];
+
+// after pressing login, checking if the variables exist in the database
+    if ($_POST['button'] == 'Login') {
+        $query = $dbh->query("SELECT COUNT(*) FROM users WHERE username=:username AND password=:password");
+        $query->bindValue(':username', $username, PDO::PARAM_STR);
+        $query->bindValue(':password', $password, PDO::PARAM_STR);
+        $query->execute();
+
+        // Check the number of rows that match the SELECT statement
+        if ($query = $dbh->fetch(PDO::FETCH_OBJ)) {
+            echo "No records found";
+        } else {
+            header("Location: home.php");
+            $_SESSION['username'] = $_POST['username'];
+        }
+    }
+}
 
 ?>
 <html lang="en">
@@ -46,14 +58,14 @@ catch(PDOException $e)
 
 <!--CONTENT DIV -->
     <div class="indexContent">
-        <form id="login">
+        <form id="login" action="index.php" method="post">
             Username:
             <input type="text" name="username" placeholder="John_Doe123" class="enjoy-css">
             <br>
             Password:
             <input type="password" name="psw" class="enjoy-css">
             <br>
-            <button class="button"><a href="home.php">Log-In</a></button> <button class="button"><a href="register.php">Register</a></button>
+            <button class="button" name="button"></button> <button class="button"><a href="register.php">Register</a></button>
         </form>
     </div>
 <!-- END CONTENT-->
