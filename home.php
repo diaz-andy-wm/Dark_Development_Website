@@ -14,10 +14,10 @@
         <div class="navLogo"><img src="pics/logo.png"> </div> <div class="name"><h1 style="font-size: 21px;">Dark Development</h1></div>
         <nav role='navigation'>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="aboutUs.html">About</a></li>
-                <li><a href="newProducts.html">Products</a></li>
-                <li><a href="projCommunity.html">Member Projects</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="aboutUs.php">About</a></li>
+                <li><a href="newProducts.php">Products</a></li>
+                <li><a href="projCommunity.php">Member Projects</a></li>
                 <li><a href="profilePage.html">Profile</a></li>
             </ul>
         </nav>
