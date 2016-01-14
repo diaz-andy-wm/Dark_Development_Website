@@ -9,7 +9,7 @@
 
     <style>
         a:link{
-            color: darkgrey;
+            color: red;
         }
         .black_overlay{
             display: none;
