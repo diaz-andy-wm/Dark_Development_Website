@@ -146,13 +146,21 @@ form{
 .NavLink{
     color: white;
 }
-#cartStuff{
+.searchStuff{
     border-radius: 10px;
     background-color: white;
-    width: 180px;
-    margin-left: auto;
-    float: right;
     text-align: center;
+    float: right;
+    margin-right: 75px;
+    width: 850px;
+}
+.cartStuff{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    float: top;
+    margin-left: 75px;
+    width: 350px;
 }
 #loginSquare{
     margin-left:20px;
@@ -209,10 +217,9 @@ form{
     font-size:25px;
 }
 #searchResults{
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    background-color: white;
+    text-align: left;
+    margin-left: 50px;
+    width: 850px;
 }
 #filterList{
     text-align: left;
@@ -448,7 +455,6 @@ p{
 }
 
 .product-image{
-
 }
 .product-image .bg{
     background-image: url("pics/camera.jpg");
@@ -479,6 +485,8 @@ p{
 
 .product-info{
     padding: 0 8%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .product-info h1{
