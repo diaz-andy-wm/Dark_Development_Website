@@ -90,7 +90,7 @@
     <div class="filler">
 
         <div class="pic-title"> <!-- Picture gallery title-->
-            <h1 style="text-shadow: 2px 1px #931D1F">Hover Over Pictures For More</h1>
+            <h1 style="text-shadow: 2px 1px #931D1F">Click on the Pictures for More!</h1>
         </div>
         <div id="filler" style="margin-top:-125px;background-color:black;width:4px;height:1378px;position:relative;margin-left:-4px;margin-right:1000px;"></div>
 
@@ -103,23 +103,23 @@
         <div class="pic-gallery">
 
 
-            <div id="pic-1" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-1" class="pics"></div></a>
 
-            <div id="pic-2" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-2" class="pics"></div></a>
 
-            <div id="pic-3" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-3" class="pics"></div></a>
 
-            <div id="pic-4" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-4" class="pics"></div></a>
 
-            <div id="pic-5" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-5" class="pics"></div></a>
 
-            <div id="pic-6" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-6" class="pics"></div></a>
 
-            <div id="pic-7" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-7" class="pics"></div></a>
 
-            <div id="pic-8" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-8" class="pics"></div></a>
 
-            <div id="pic-9" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-9" class="pics"></div></a>
 
         </div>
 
