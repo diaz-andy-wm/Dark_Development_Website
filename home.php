@@ -5,14 +5,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
     <script src="jquery copy.js"></script>
+    <link rel="stylesheet" type="text/css" href="navStyle.css">
     <title></title>
 </head>
 <body>
+<header id="topnav" style="z-index: 99">
+    <div class="inner">
+        <div class="navLogo"><img src="pics/logo.png"> </div> <div class="name"><h1 style="font-size: 21px;">Dark Development</h1></div>
+        <nav role='navigation'>
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="aboutUs.php">About</a></li>
+                <li><a href="newProducts.php">Products</a></li>
+                <li><a href="projCommunity.php">Member Projects</a></li>
+                <li><a href="profilePage.php">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 <div class="container"><!--Container -->
 
 
-    <div class="jumboSlide"><!-- Jumbo slide-->
+    <div class="jumboSlide" ><!-- Jumbo slide-->
 
         <div class="container" style="background-color:#D1D1D1;">
 
@@ -67,36 +82,7 @@
             </div>
 
         </div>
-        <!-- red search button (not functional yet)-->
-        <div class="nav-bar-menu"><!-- nav-bar-menu start-->
-            <div id="logo">
-                <img src="pics/logo.png" style="width:53px;height:53px;margin-top:3px;">
-                <span style="font-family: Vato, Verdana, sans-serif;-webkit-font-smoothing: antialiased;font-weight: 400;font-size:24px;">Dark Development</span>
-            </div>
 
-            <div class="search-drop-down"><!-- Start horizontal navigation bar-->
-
-                <div id="text-search">Search Bar:</div>
-
-            </div>
-
-            <div class="search-menu">
-                <!--Horizontal nav bar -->
-                <ul>
-
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="aboutUs.html">About</a></li>
-                    <li><a href="newProducts.php">Products</a></li>
-                    <li><a href="projCommunity.php">Member Projects</a></li>
-                    <li><a href="profilePage.php">Profile</a></li>
-
-                </ul>
-
-
-            </div>
-            <!-- End horizontal navigation bar-->
-
-        </div><!-- nav-bar-menu end-->
 
     </div><!--jumbo slide end -->
 
@@ -104,7 +90,7 @@
     <div class="filler">
 
         <div class="pic-title"> <!-- Picture gallery title-->
-            <h1>Hover Over Pictures For More</h1>
+            <h1 style="text-shadow: 2px 1px #931D1F">Click on the Pictures for More!</h1>
         </div>
         <div id="filler" style="margin-top:-125px;background-color:black;width:4px;height:1378px;position:relative;margin-left:-4px;margin-right:1000px;"></div>
 
@@ -117,23 +103,23 @@
         <div class="pic-gallery">
 
 
-            <div id="pic-1" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-1" class="pics"></div></a>
 
-            <div id="pic-2" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-2" class="pics"></div></a>
 
-            <div id="pic-3" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-3" class="pics"></div></a>
 
-            <div id="pic-4" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-4" class="pics"></div></a>
 
-            <div id="pic-5" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-5" class="pics"></div></a>
 
-            <div id="pic-6" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-6" class="pics"></div></a>
 
-            <div id="pic-7" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-7" class="pics"></div></a>
 
-            <div id="pic-8" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-8" class="pics"></div></a>
 
-            <div id="pic-9" class="pics"></div>
+            <a href="newProducts.php"><div id="pic-9" class="pics"></div></a>
 
         </div>
 
@@ -174,8 +160,8 @@
         </div>
         <div class="links">
             <a href="home.php">Home</a>
-            <a href="index.html">Sign-In</a>
-            <a href="aboutUs.html">About Us</a>
+            <a href="index.php">Sign-In</a>
+            <a href="aboutUs.php">About Us</a>
         </div>
     </footer>
 
