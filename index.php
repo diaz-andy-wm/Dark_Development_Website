@@ -19,7 +19,7 @@
     }
 
 ?>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Dark Development - Login</title>
@@ -54,7 +54,7 @@
             Password:
             <input type="password" name="psw" class="enjoy-css">
             <br>
-            <input type="submit" class="button" name="button"> <button class="button"><a href="register.php">Register</a></button>
+            <button type="submit" class="button" name="button"><a href="home.php">Submit</a></button> <button class="button"><a href="register.php">Register</a></button>
         </form>
     </div>
 <!-- END CONTENT-->
