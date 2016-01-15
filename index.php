@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <?php
-require_once('connect.php');
 
-if (isset($_POST['username']) and isset($_POST['psw']))
-{
+   require_once('connect.php');
 
-// information entered in form made into a variable
-    $username = $_POST['username'];
-    $password = $_POST['psw'];
+    $request = $dbh->prepare('SELECT * FROM users WHERE username = :username AND psw = :password');
+    $request->execute(array('username' => $_POST['username'], 'password' => $_POST['psw']));
 
-// after pressing login, checking if the variables exist in the database
-    if ($_POST['button'] == 'Login') {
-        $query = $dbh->query("SELECT COUNT(*) FROM users WHERE username=:username AND password=:password");
-        $query->bindValue(':username', $username, PDO::PARAM_STR);
-        $query->bindValue(':password', $password, PDO::PARAM_STR);
-        $query->execute();
+    $data = $request->fetch();
 
-        // Check the number of rows that match the SELECT statement
-        if ($query = $dbh->fetch(PDO::FETCH_OBJ)) {
-            echo "No records found";
-        } else {
-            header("Location: home.php");
-            $_SESSION['username'] = $_POST['username'];
-        }
+    if ($data > 0)
+    {
+        header('location: home.php');
+
     }
-}
+    else
+    {
+        echo 'Username or password incorrect';
+    }
 
 ?>
 <html lang="en">
@@ -65,7 +57,7 @@ if (isset($_POST['username']) and isset($_POST['psw']))
             Password:
             <input type="password" name="psw" class="enjoy-css">
             <br>
-            <button class="button" name="button"></button> <button class="button"><a href="register.php">Register</a></button>
+            <input type="submit" class="button" name="button"> <button class="button"><a href="register.php">Register</a></button>
         </form>
     </div>
 <!-- END CONTENT-->
