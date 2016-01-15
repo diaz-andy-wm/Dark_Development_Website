@@ -34,9 +34,6 @@ if (isset($_POST['username']) and isset($_POST['psw']))
     <link rel="stylesheet" type="text/css" href="primary_stylesheet.css">
     <script type="text/javascript" script-name="holtwood-one-sc" src="http://use.edgefonts.net/holtwood-one-sc.js"></script>
 
-    <!-- #  Credit for the Construction of  # -->
-    <!-- #  --  this HTML PAGE goes to  --  # -->
-    <!-- #  ---------  Andy Diaz  --------  # -->
 </head>
 <body>
 <div class="signInContainer">

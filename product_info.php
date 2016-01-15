@@ -5,9 +5,6 @@
     <link rel="stylesheet" type="text/css" href="primary_stylesheet.css">
     <link rel="stylesheet" type="text/css" href="navStyle.css">
 
-    <!-- #  Credit for the Construction of  # -->
-    <!-- #  --  this HTML PAGE goes to  --  # -->
-    <!-- #  ---------  Andy Diaz  --------  # -->
 </head>
 <body>
 
@@ -55,7 +52,8 @@
 
            <button class="button"><a href="">Add To Cart</a></button>
 
-            <p> This is where description would go. Description goes here, yes it does. Words and more words will be written here. Lots of adjectives are used to describe products. So many words im running out of random phrases. </p>
+            <p> This is where description would go. Description goes here, yes it does. Words and more words will be written here. Lots of adjectives are used to describe products.
+                So many words im running out of random phrases. </p>
 
             <ul>
                 <li>detail</li>
@@ -78,8 +76,8 @@
         </div>
         <div class="links">
             <a href="home.php">Home</a>
-            <a href="index.html">Sign-In</a>
-            <a href="aboutUs.html">About Us</a>
+            <a href="index.php">Sign-In</a>
+            <a href="aboutUs.php">About Us</a>
         </div>
     </footer>
 <!--###  footer end   ###----------------------------------------->

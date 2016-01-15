@@ -5,142 +5,94 @@
     <link rel="stylesheet" type="text/css" href="primary_stylesheet.css">
     <link rel="stylesheet" type="text/css" href="navStyle.css">
 
-    <!-- #  Credit for the Construction of  # -->
-    <!-- #  --  this HTML PAGE goes to  --  # -->
-    <!-- #  ---------  Andy Diaz  --------  # -->
 </head>
 <body>
-    <!--# # # # # # # # # # # -->
-<!--    #      NAV DIV      #    ------------------------------->
-    <!--# # # # # # # # # # # -->
-<<<<<<< HEAD
-    <div id="nav">
-        
-        <div id="navbar">
-            <a class="NavLink" href="home.php">Home</a>
-            <a class="NavLink" href="aboutUs.html">About Us</a>
-            <a class="NavLink" href="newProducts.php">What's New</a>
-            <a class="NavLink" href="projCommunity.php">Project Community</a>
-            <a class="NavLink" href="profilePage.php">Profile</a>
-        </div>
-        <div id="cartStuff">
-            <form><input type="text" placeholder="Search Dark Dev"><button><a href="searchResults.php">Go</a></button></form>
-            <p>cart: 0</p>
-        </div>
-        <div id ="profileID">
-            <p style="color: white">.</p>
-            <img src="http://vignette3.wikia.nocookie.net/java/images/0/0e/Camera_icon.gif/revision/latest?cb=20090227194712" style="width:70px; height: 70px"><br>
-            <p>UsernameHere</p>
-            <button><a href="index.html">log out</a></button>
-        </div>
-
-    </div>
-=======
-    <header id="topnav">
+ <header id="topnav">
         <div class="inner">
             <div class="navLogo"><img src="pics/logo.png"> </div> <div class="name"><h1>Dark Development</h1></div>
             <nav role='navigation'>
                 <ul>
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="aboutUs.php">About</a></li>
                     <li><a href="newProducts.php">Products</a></li>
                     <li><a href="projCommunity.php">Member Projects</a></li>
                     <li><a href="profilePage.php">Profile</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
->>>>>>> origin/mollee
+</header>
 <!--###  nav end  ###-------------------------------------->
     <!--# # # # # # # # # # -->
 <!--    #   CONTENT DIV   #    -------------------------------->
     <!--# # # # # # # # # # -->
 <div class="content">
-    <div id="searchResults">
-        <h3>showing results for: (what you typed)</h3>
-        <p>results: 1 of 1</p>
-        <p>Filter:</p>
-        <div id="filterList">
-<!--###  Filter Table  ###-->
-            <table id="filters">
-                <tr>
-                    <td>Prod Type</td>
-                    <td>Memory Amount</td>
-                    <td>Accessories</td>
-                    <td>Cost</td>
-                </tr>
-                <tr>
-                    <td>
-                        <!--# Product Type #-->
-                        <form>
-                            <input type="checkbox" name="videoCamera">Video Camera<br>
-                            <input type="checkbox" name="DSLR">DSLR<br>
-                            <input type="checkbox" name="pointShoot">Point & Shoot
-                        </form>
-                    </td>
-                    <td>
-                        <!--# Memory Amount #-->
-                        <form>
-                            <input type="checkbox" name="1g">1 gb<br>
-                            <input type="checkbox" name="2g">2 gb<br>
-                            <input type="checkbox" name="8g">8 gb<br>
-                            <input type="checkbox" name="16g">16 gb<br>
-                            <input type="checkbox" name="32g">32 gb
-                        </form>
-                    </td>
-                    <td>
-                        <!--# Accessories #-->
-                        <form>
-                            <input type="checkbox" name="none">none<br>
-                            <input type="checkbox" name="tripod">Tripod<br>
-                            <input type="checkbox" name="exLens">Extra Lens<br>
-                            <input type="checkbox" name="strap">Strap
-                        </form>
-                    </td>
-                    <td>
-                        <!--# Cost #-->
-                        <form>
-                            <input type="checkbox" name="0-20">0-$20 week<br>
-                            <input type="checkbox" name="21-50">21-$50 week<br>
-                            <input type="checkbox" name="51-100">51-$100 week<br>
-                            <input type="checkbox" name="101-200">101-$200 week<br>
-                            <input type="checkbox" name="200-500">200-$500 week
-                        </form>
-                    </td>
-                </tr>
-            </table>
-
+    <div class="searchStuff">
+        <div id="searchResults" style="margin-left: 50px;">
+            <br>
+            <h3>showing results for: (what you typed)</h3>
+            <p style="margin-left: 55px">results: 1 of 1</p>
+            <br>
         </div>
-        <p style="color: white">.</p>
-        <p>Results:</p>
-        <div id="resultsList">
-<!--###  Results Table  ###-->
-            <table id="results">
-                <tr>
-                    <td>Img</td>
-                    <td>Name</td>
-                    <td>Prod Type</td>
-                    <td>Memory Amount</td>
-                    <td>Accessories</td>
-                    <td>Cost</td>
-                </tr>
-                <tr>
-                    <!--# IMG #-->
-                    <td><img src="http://images.clipartpanda.com/camera-flash-silhouette-camera-md.png" style="width:60px; height: 50px"></td>
-                    <!--# name #-->
-                    <td>Example Cam</td>
-                    <!--# Prod Type #-->
-                    <td>DSLR</td>
-                    <!--# Memory Amount #-->
-                    <td>1 gb</td>
-                    <!--# Accessories #-->
-                    <td>none</td>
-                    <!--# Cost #-->
-                    <td>$499</td>
-                </tr>
-            </table>
-
+    </div>
+    <div class="searchStuff" style="background: transparent">
+        <br>
+    </div>
+    <div class="searchStuff">
+        <div id="searchResults">
+            <br>
+                <table>
+                    <tr>
+                        <td>
+                            <img style="width: 120px; height: 65px;" src="http://pisces.bbystatic.com/image2/BestBuy_US/en_US/images/abn/2015/cam/pr/140513-dslr-cat-conv/140513-topper-save-canon-dslr.jpg;canvasHeight=170;canvasWidth=306">
+                        </td>
+                        <td><a href="product_info.php"><h2>DSLR</h2></a></td>
+                        <td>Canon</td>
+                        <td>Point and Shoot</td>
+                        <td>8.50</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img style="margin-left: 25px; width: 70px; height: 65px;" src="http://www.bhphotovideo.com/images/images2500x2500/nikon_1532_d3300_dslr_camera_with_1023353.jpg">
+                        </td>
+                        <td><a href="product_info.php"><h2>DSLR</h2></a></td>
+                        <td>Nikon</td>
+                        <td>Point and Shoot</td>
+                        <td>8.50</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img style="margin-left: 20px; width: 80px; height: 65px;" src="http://petapixel.com/assets/uploads/2013/08/sonyalpha3000_1.jpg">
+                        </td>
+                        <td><a href="product_info.php"><h2>DSLR</h2></a></td>
+                        <td>Sony</td>
+                        <td>Point and Shoot</td>
+                        <td>8.50</td>
+                    </tr>
+                </table>
+            <br>
         </div>
+    </div>
+    <!--split left and right-->
+    <div class="cartStuff">
+        <form>
+            <input type="text" style="width: 250px; height: 32px; font-size: 25px" name="searchUser" placeholder="Search Products">
+            <div class="buttonSearch">
+                <a href="searchResults.php">
+                    <img src="http://simpleicon.com/wp-content/uploads/active-search-256x256.png" style="width: 25px; height: 25px">
+                </a>
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="cartStuff" style="text-align: left">
+        <br>
+        <div style="margin-left: 25px">
+            <h1 style="font-weight: bold">Cart: 1</h1>
+            <a href="product_info.php"><p>DSLR</p></a>
+            <br>
+            <h3 style="font-size: 15px; text-align: right; margin-right: 25px">Total: 8.50 a day</h3>
+        </div>
+        <br>
     </div>
 
 </div>
@@ -157,8 +109,8 @@
         </div>
         <div class="links">
             <a href="home.php">Home</a>
-            <a href="index.html">Sign-In</a>
-            <a href="aboutUs.html">About Us</a>
+            <a href="index.php">Sign-In</a>
+            <a href="aboutUs.php">About Us</a>
         </div>
     </footer>
 <!--###  footer end   ###----------------------------------------->
