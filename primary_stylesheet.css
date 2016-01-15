@@ -218,7 +218,6 @@ form{
 }
 #searchResults{
     text-align: left;
-    margin-left: 50px;
     width: 850px;
 }
 #filterList{
@@ -418,8 +417,9 @@ form{
 *{
     box-sizing: border-box;
 }
-
-
+table{
+    width: 850px;
+}
 h1{
     font-size: 130%;
 }

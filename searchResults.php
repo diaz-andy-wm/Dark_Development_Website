@@ -27,15 +27,50 @@
     <!--# # # # # # # # # # -->
 <div class="content">
     <div class="searchStuff">
-        <div id="searchResults">
+        <div id="searchResults" style="margin-left: 50px;">
             <br>
             <h3>showing results for: (what you typed)</h3>
             <p style="margin-left: 55px">results: 1 of 1</p>
             <br>
         </div>
     </div>
+    <div class="searchStuff" style="background: transparent">
+        <br>
+    </div>
     <div class="searchStuff">
-
+        <div id="searchResults">
+            <br>
+                <table>
+                    <tr>
+                        <td>
+                            <img style="width: 120px; height: 65px;" src="http://pisces.bbystatic.com/image2/BestBuy_US/en_US/images/abn/2015/cam/pr/140513-dslr-cat-conv/140513-topper-save-canon-dslr.jpg;canvasHeight=170;canvasWidth=306">
+                        </td>
+                        <td><a href="product_info.php"><h2>DSLR</h2></a></td>
+                        <td>Canon</td>
+                        <td>Point and Shoot</td>
+                        <td>8.50</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img style="margin-left: 25px; width: 70px; height: 65px;" src="http://www.bhphotovideo.com/images/images2500x2500/nikon_1532_d3300_dslr_camera_with_1023353.jpg">
+                        </td>
+                        <td><a href="product_info.php"><h2>DSLR</h2></a></td>
+                        <td>Nikon</td>
+                        <td>Point and Shoot</td>
+                        <td>8.50</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img style="margin-left: 20px; width: 80px; height: 65px;" src="http://petapixel.com/assets/uploads/2013/08/sonyalpha3000_1.jpg">
+                        </td>
+                        <td><a href="product_info.php"><h2>DSLR</h2></a></td>
+                        <td>Sony</td>
+                        <td>Point and Shoot</td>
+                        <td>8.50</td>
+                    </tr>
+                </table>
+            <br>
+        </div>
     </div>
     <!--split left and right-->
     <div class="cartStuff">
@@ -74,8 +109,8 @@
         </div>
         <div class="links">
             <a href="home.php">Home</a>
-            <a href="index.html">Sign-In</a>
-            <a href="aboutUs.html">About Us</a>
+            <a href="index.php">Sign-In</a>
+            <a href="aboutUs.php">About Us</a>
         </div>
     </footer>
 <!--###  footer end   ###----------------------------------------->
