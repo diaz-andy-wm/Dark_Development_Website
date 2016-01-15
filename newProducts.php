@@ -31,8 +31,22 @@
     <!--# # # # # # # # # # -->
 <div class="content">
 
-    <h2>Sorry for the Inconvenience...</h2>
-    <p>(no new products available)</p>
+    <div class="searchStuff">
+        <h2>Sorry for the inconvenience...</h2>
+        <p>Unfortunately there are no new products in the Dark Development inventory. Thank you for your patience. </p>
+        <p>Please feel free to search our current inventory to the left.</p>
+        <br>
+    </div>
+    <div class="cartStuff">
+        <form>
+            <input type="text" style="width: 250px; height: 32px; font-size: 25px" name="searchUser" placeholder="Search Products">
+            <div class="buttonSearch">
+                <a href="searchResults.php">
+                    <img src="http://simpleicon.com/wp-content/uploads/active-search-256x256.png" style="width: 25px; height: 25px">
+                </a>
+            </div>
+        </form>
+    </div>
 
 </div>
 <!--###  content end  ###---------------------------------------->

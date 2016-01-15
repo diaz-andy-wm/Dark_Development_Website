@@ -1,10 +1,15 @@
+.searchPPL{
+    height:200px;
+    width:935px;
+    z-index: 1;
+    background-color: #931D1F;
+    text-align: center;
+}
 .pic-gallery{
-    background-color:#B64642;
+    background-color:#931D1F;
     height:900px;
     width:935px;
-    margin-left:20px;
     z-index: 1;
-
 }
 .label{
     color:white;

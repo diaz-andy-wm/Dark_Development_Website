@@ -62,7 +62,13 @@ form{
     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
-
+.buttonSearch{
+    display: inline-block;
+    border: 1px solid rgba(209,33,33,1);
+    width: 30px;
+    height: 30px;
+    background: darkgrey;
+}
 .button {
     display: inline-block;
     -webkit-box-sizing: content-box;
@@ -130,9 +136,7 @@ form{
  }
  /*end of sign in css*/
 
-#nav{
-    font-family: impact;
-}
+
 #navbar{
     background-color: black;
     text-align: center;
@@ -142,24 +146,66 @@ form{
 .NavLink{
     color: white;
 }
-#cartStuff{
+.searchStuff{
     border-radius: 10px;
     background-color: white;
-    width: 180px;
-    margin-left: auto;
-    float: right;
     text-align: center;
+    float: right;
+    margin-right: 75px;
+    width: 850px;
+}
+.cartStuff{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    float: top;
+    margin-left: 75px;
+    width: 350px;
 }
 #loginSquare{
-    margin-right:-200px;
-    background-color: white;
-<<<<<<< HEAD
+    margin-left:20px;
+    height:900px;
     width: 1400px;
-    border-radius: 5px;
-=======
-    width: 900px;
     border-radius: 2px;
->>>>>>> 70b58f6fc4cad5a0ef3d45b1d5cebb0f9574165b
+    background-color:transparent;
+}
+#history{
+    width:600px;
+    height:550px;
+    margin-right:650px;
+    background-color: #e9504c;
+    margin-left:50px;
+    border-radius: 3px;
+    border:2px solid black;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
+}
+#location{
+    width:600px;
+    height:550px;
+    margin-left:750px;
+    margin-top:-550px;
+    border-radius: 3px;
+    background-color: #e9504c;
+    border:2px solid black;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
+
+}
+#pledge{
+     width: 1300px;
+     height:300px;
+    margin-left:50px;
+    margin-top:25px;
+    border-radius: 3px;
+    background-color: #e9504c;
+    border:2px solid black;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
+
 }
 #history p{
     font-size:25px;
@@ -171,10 +217,8 @@ form{
     font-size:25px;
 }
 #searchResults{
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    background-color: white;
+    text-align: left;
+    width: 850px;
 }
 #filterList{
     text-align: left;
@@ -321,7 +365,6 @@ form{
     float:bottom;
     color: #000;
 }
-
 .profileID {
     border-radius: 10px;
     background-color: white;
@@ -374,8 +417,9 @@ form{
 *{
     box-sizing: border-box;
 }
-
-
+table{
+    width: 850px;
+}
 h1{
     font-size: 130%;
 }
@@ -394,7 +438,7 @@ p{
 .product{
     border-bottom: 1px solid;
     clear: both;
-    padding: 0px 10% 70px 10%;
+    padding: 0 10% 70px 10%;
 }
 
 .group:after {
@@ -411,7 +455,6 @@ p{
 }
 
 .product-image{
-
 }
 .product-image .bg{
     background-image: url("pics/camera.jpg");
@@ -441,7 +484,9 @@ p{
 }
 
 .product-info{
-    padding: 0px 8%;
+    padding: 0 8%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .product-info h1{
