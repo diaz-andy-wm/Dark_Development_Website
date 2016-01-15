@@ -71,7 +71,7 @@
             <div class="profPics" style="background-image: url(https://s-media-cache-ak0.pinimg.com/236x/3a/ee/bd/3aeebdb0b0208a128d7bb002a6f0f0f4.jpg)"><h2>Random album</h2></div>
             <div class="profPics" style="background-image: url(http://assets.papernstitchblog.com.s3.amazonaws.com/wp-content/uploads/2010/09/il_fullxfull.162092197.jpg)"><h2>School album</h2></div>
             <div class="profPics" style="background-image: url(http://traveltips.usatoday.com/DM-Resize/photos.demandstudios.com/getty/article/171/208/55845126_XS.jpg?w=560&h=560&keep_ratio=1&webp=1)"><h2>Italy Trip album</h2></div>
-            <div class="profPics" style="background-image: url(http://i415.photobucket.com/albums/pp236/Keefers_/Keefers_Beautiful%20Animals%202/a7df1e5d.jpg)"><h2>nature pics album</h2></div>
+            <div class="profPics" style="background-image: url(http://thesmashable.com/wp-content/uploads/2012/11/Natural_Wallpaper_for_iPhone_Backgrounds_iPhone_5_Pictures_Wallpapers_and_Backgrounds-15.jpg)"><h2>nature pics album</h2></div>
             <div class="profPics2" style="background-image: url(http://images2.fanpop.com/image/photos/13400000/the-new-justin-bieber-funny-pugs-13451940-377-500.jpg)"><h2>Mikey album</h2></div>
             <div class="profPics2" style="background-image: url(http://images.fineartamerica.com/images-medium-large-5/summer-beach-sunset-paul-lemon.jpg)"><h2>Summer album</h2></div>
             <div class="profPics2" style="background-image: url(http://vwhatsappstatus.com/wp-content/uploads/2015/04/Best-Friendship-Forever-Status-For-Whatsapp-DP-1.jpg?189db0)"><h2>Besties album</h2></div>
@@ -83,7 +83,7 @@
             <div class="urVid" style="background-image: url(http://wallpapercave.com/wp/n7yKnvi.jpg)"><h2>Zed Dead Movie</h2></div>
             <div class="urVid" style="background-image: url(http://s1.dmcdn.net/Hv8iJ/1280x720-hDR.jpg)"><h2>The Woman Movie</h2></div>
             <div class="urVid2" style="background-image: url(http://www.viral.us/wp-content/uploads/2015/11/stallion.jpg)"><h2>Stallion Movie</h2></div>
-            <div class="urVid2" style="background-image: url(http://images.bwwstatic.com/columnpic7/2F14C0A87-FB0C-EA76-1068C457D1056A47.jpg)"><h2>Didley Movie</h2></div>
+            <div class="urVid2" style="background-image: url(http://images.bwwstatic.com/columnpic7/2F14C0A87-FB0C-EA76-1068C457D1056A47.jpg)"><h2>Mr. Didley Movie</h2></div>
             <div class="urVid2" style="background-image: url(http://hivewallpaper.com/wallpaper/2015/01/street-racing-cars-wallpapers-12-free-hd-wallpaper.jpg)"><h2>Racer Movie</h2></div>
         </div>
     </div>
