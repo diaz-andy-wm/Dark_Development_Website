@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <?php
-$hostname = 'localhost';
-$username = 'root';
-$password = 'root';
 
-try {
-    $dbh = new PDO("mysql:host=$hostname;dbname=mysql", $username, $password);
+   require_once('connect.php');
 
-}
-catch(PDOException $e)
-{
-    echo $e->getMessage();
-}
+    $request = $dbh->prepare('SELECT * FROM users WHERE username = :username AND psw = :password');
+    $request->execute(array('username' => $_POST['username'], 'password' => $_POST['psw']));
 
+    $data = $request->fetch();
+
+    if ($data > 0)
+    {
+        header('location: home.php');
+
+    }
+    else
+    {
+        echo 'Username or password incorrect';
+    }
 
 ?>
 <html lang="en">
@@ -43,14 +47,14 @@ catch(PDOException $e)
 
 <!--CONTENT DIV -->
     <div class="indexContent">
-        <form id="login">
+        <form id="login" action="index.php" method="post">
             Username:
             <input type="text" name="username" placeholder="John_Doe123" class="enjoy-css">
             <br>
             Password:
             <input type="password" name="psw" class="enjoy-css">
             <br>
-            <button class="button"><a href="home.php">Log-In</a></button> <button class="button"><a href="register.php">Register</a></button>
+            <input type="submit" class="button" name="button"> <button class="button"><a href="register.php">Register</a></button>
         </form>
     </div>
 <!-- END CONTENT-->
